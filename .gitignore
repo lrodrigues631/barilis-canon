@@ -1,0 +1,13 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+
+# Materiais locais fora do escopo do repositório canônico.
+sources/diretrizes_encontros_e_covis.md
+sources/diretrizes_encontros_grupo_barilis.md

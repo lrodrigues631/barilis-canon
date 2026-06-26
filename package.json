@@ -1,0 +1,19 @@
+{
+  "name": "barilis-canon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ferramentas de qualidade de conteúdo para a base canônica de Barilis.",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:md": "markdownlint-cli2",
+    "validate:content": "node scripts/validate-content.mjs",
+    "check": "npm run format:check && npm run lint:md && npm run validate:content"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.18.1",
+    "prettier": "^3.3.3",
+    "yaml": "^2.5.1"
+  }
+}
