@@ -16,17 +16,18 @@ Mapa operacional para migração futura de materiais brutos para a base canônic
 
 ## Ordem de Migração Proposta
 
-| Ordem | Fonte                                    | Ação                                                                                                                 |
-| ----- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 1     | `sources/#00_index_unificado_barilis.md` | Migrado nesta etapa para `world/public/index.md`; manter bruto preservado em `sources/`.                             |
-| 2     | `sources/#1-lore-antiga-revisada.md`     | Migrar história geral, conferindo dependências macro com `world/public/index.md`.                                    |
-| 3     | Arquivos individuais de reinos           | Migrar cada território para a pasta geográfica correspondente, começando por Durnvale como grafia oficial.           |
-| 4     | `sources/outros-lugares.md`              | Migrar lugares menores e relações regionais; usar como substituto das listas antigas.                                |
-| 5     | `sources/torres-de-marfim.md`            | Migrar como instituição própria, sem absorver em região.                                                             |
-| 6     | `sources/uldain.md`                      | Migrar como `aguas-de-uldain`, com nome exibido Águas de Uldain e alias Uldain, após split de visibilidade e escopo. |
-| 7     | `sources/economia_barilis.md`            | Separar contexto econômico canônico de diretrizes operacionais de mestre antes de migrar.                            |
-| 8     | `sources/orientation_project_barilis.md` | Extrair apenas regras permanentes aprovadas para `docs/governance/`; não migrar para `world/`.                       |
-| 9     | Arquivos fora do escopo                  | Manter fora de `world/`; avaliar `barilis-master`, remoção ou documentação externa.                                  |
+| Ordem | Fonte                                    | Ação                                                                                                                       |
+| ----- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 1     | `sources/#00_index_unificado_barilis.md` | Migrado nesta etapa para `world/public/index.md`; manter bruto preservado em `sources/`.                                   |
+| 2     | `sources/#1-lore-antiga-revisada.md`     | Migrar história geral, conferindo dependências macro com `world/public/index.md`.                                          |
+| 3     | `sources/#2.1-reino-de-durnvale.md`      | Migrado nesta etapa para `world/public/geography/central/realms/durnvale/index.md`; manter bruto preservado em `sources/`. |
+| 4     | Arquivos individuais de reinos restantes | Migrar cada território para a pasta geográfica correspondente.                                                             |
+| 5     | `sources/outros-lugares.md`              | Migrar lugares menores e relações regionais; usar como substituto das listas antigas.                                      |
+| 6     | `sources/torres-de-marfim.md`            | Migrar como instituição própria, sem absorver em região.                                                                   |
+| 7     | `sources/uldain.md`                      | Migrar como `aguas-de-uldain`, com nome exibido Águas de Uldain e alias Uldain, após split de visibilidade e escopo.       |
+| 8     | `sources/economia_barilis.md`            | Separar contexto econômico canônico de diretrizes operacionais de mestre antes de migrar.                                  |
+| 9     | `sources/orientation_project_barilis.md` | Extrair apenas regras permanentes aprovadas para `docs/governance/`; não migrar para `world/`.                             |
+| 10    | Arquivos fora do escopo                  | Manter fora de `world/`; avaliar `barilis-master`, remoção ou documentação externa.                                        |
 
 ## Fontes Ativas por Destino
 
@@ -37,7 +38,7 @@ Mapa operacional para migração futura de materiais brutos para a base canônic
 | `world/public/geography/north/realms/aurathil/`            | `#2-reino-aurathil-expandido.md`                             |
 | `world/public/geography/north/realms/jotungard/`           | `#2.5-reino-jotungard.md`                                    |
 | `world/public/geography/north-central/realms/durundralin/` | `#2.4-reino-durundralin.md`                                  |
-| `world/public/geography/central/realms/durnvale/`          | `#2.1-reino-de-durnvale.md`                                  |
+| `world/public/geography/central/realms/durnvale/index.md`  | `#2.1-reino-de-durnvale.md`                                  |
 | `world/public/geography/central/realms/thalendor/`         | `#2.3-reino-de-thalendor.md`                                 |
 | `world/public/geography/south/realms/irtuman/`             | `#2.2-reino-de-irtuman.md`                                   |
 | `world/public/geography/south/realms/owill/`               | `#2.6-reino-owill.md`                                        |
