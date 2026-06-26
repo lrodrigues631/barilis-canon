@@ -16,6 +16,43 @@ O conteúdo canônico ativo deve ser escrito em Markdown com frontmatter YAML.
   combate ou dados temporários do grupo atual.
 - `id` e `slug` devem ser únicos dentro dos arquivos validados.
 
+## Frontmatter Obrigatório
+
+Todo arquivo canônico ativo em `world/public/` ou `world/private/` deve
+declarar:
+
+- `id`
+- `title`
+- `entity_type`
+- `status`
+- `visibility`
+- `slug`
+- `region`
+- `geographic_position`
+- `relations`
+- `updated_at`
+
+`region` representa a macro-região canônica:
+
+- `north`
+- `central`
+- `south`
+- `seas-and-islands`
+- `null`
+
+`geographic_position` representa a posição física ou faixa geográfica usada pela
+estrutura de pastas. Valores atualmente previstos:
+
+- `global`
+- `north`
+- `north-central`
+- `central`
+- `south`
+- `seas-and-islands`
+
+`north-central` é uma categoria organizacional do repositório, não uma quarta
+macro-região oficial de Barilis.
+
 ## Estados
 
 Valores válidos de `status`:

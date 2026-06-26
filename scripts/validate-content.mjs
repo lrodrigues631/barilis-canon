@@ -16,11 +16,13 @@ const requiredFields = [
   "visibility",
   "slug",
   "region",
+  "geographic_position",
   "relations",
   "updated_at",
 ];
 const validStatuses = new Set(["canonical", "review", "archived"]);
 const validVisibility = new Set(["public", "gm"]);
+const validRegions = new Set(["north", "central", "south", "seas-and-islands"]);
 const ignoredFileNames = new Set(["README.md"]);
 
 const errors = [];
@@ -114,6 +116,7 @@ function validateFrontmatter(frontmatter, filePath) {
   expectString(frontmatter, "status", filePath);
   expectString(frontmatter, "visibility", filePath);
   expectString(frontmatter, "slug", filePath);
+  expectString(frontmatter, "geographic_position", filePath);
 
   if (
     Object.hasOwn(frontmatter, "region") &&
@@ -122,6 +125,16 @@ function validateFrontmatter(frontmatter, filePath) {
   ) {
     errors.push(
       `${relative(filePath)}: campo "region" deve ser texto não vazio ou null.`,
+    );
+  }
+
+  if (
+    Object.hasOwn(frontmatter, "region") &&
+    frontmatter.region !== null &&
+    !validRegions.has(frontmatter.region)
+  ) {
+    errors.push(
+      `${relative(filePath)}: campo "region" deve ser north, central, south, seas-and-islands ou null.`,
     );
   }
 
