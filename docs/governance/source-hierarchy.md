@@ -17,17 +17,32 @@ ativo.
 
 1. `00_index_unificado_barilis.md` governa geografia macro e tom. O arquivo
    bruto está preservado fisicamente como
-   `sources/#00_index_unificado_barilis.md`.
+   `sources/#00_index_unificado_barilis.md`; seu conteúdo ativo foi migrado para
+   `world/public/index.md`.
 2. `#2.1-reino-de-durnvale.md` é a fonte oficial de Durnvale.
 3. `outros-lugares.md` substitui as listas regionais antigas.
 4. `torres-de-marfim.md` é fonte própria da instituição Torres de Marfim.
 5. Arquivos individuais de reinos são fontes primárias de seus próprios
    territórios.
-6. `uldain.md` é cânon ativo consolidado para o local do norte com nome exibido
+6. `uldain.md` é cânon ativo consolidado para o local do Norte com nome exibido
    Águas de Uldain, slug/ID/arquivo `aguas-de-uldain` e alias de busca Uldain,
    mas exige split de visibilidade e escopo antes da migração.
 7. `economia_barilis.md` é conteúdo canônico que exige split futuro entre
    contexto econômico do mundo e diretrizes operacionais de mestre.
+
+## Organização Geográfica
+
+- Aurathil: `world/public/geography/north/realms/aurathil/`
+- Jotungard: `world/public/geography/north/realms/jotungard/`
+- DurunDralin: `world/public/geography/north-central/realms/durundralin/`
+- Durnvale: `world/public/geography/central/realms/durnvale/`
+- Thalendor: `world/public/geography/central/realms/thalendor/`
+- Irtuman: `world/public/geography/south/realms/irtuman/`
+- Owill: `world/public/geography/south/realms/owill/`
+- Águas de Uldain: `world/public/geography/north/places/aguas-de-uldain/`
+
+DurunDralin fica organizado na faixa geográfica `north-central`. Essa pasta é
+organizacional e não cria uma quarta macro-região canônica.
 
 ## Regras
 
