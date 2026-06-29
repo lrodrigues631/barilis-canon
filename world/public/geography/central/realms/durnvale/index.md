@@ -16,7 +16,7 @@ updated_at: "2026-06-26"
 ## Descrição Geral
 
 Durnvale é um pequeno mas estratégico reino situado ao norte de **Thalendor**,
-conhecido por controlar a **Ponte da Garganta de Thal'Zir** — a única travessia
+conhecido por controlar a **Ponte da Garganta de Thal’Zir** — a única travessia
 segura entre o norte e o centro do continente.
 
 Embora de território limitado, o reino detém **grande importância econômica e
@@ -30,7 +30,7 @@ _"Força nas Correntes, Riqueza no Aço"_, resume a filosofia do povo durnvalens
 
 ## Posição Geográfica e Fronteiras
 
-- **Sul:** Reino de **Thalendor**, conectado pela **Ponte de Thal'Zir**.
+- **Sul:** Reino de **Thalendor**, conectado pela **Ponte de Thal’Zir**.
 - **Norte:** Estreito das Mil Correntes, com mares turbulentos e traiçoeiros.
 - **Leste:** Reino anão de **DurunDralin**, com intensa troca de tecnologia e
   metalurgia.
@@ -72,7 +72,7 @@ título honorário de **"Portadores das Correntes"**.
    do estreito; abriga o **Forte Naval** e o **Conselho dos Navegantes**.
 3. **Mercado do Vale** — coração artesanal; concentra as forjas, ourives e
    tecelões.
-4. **Distrito da Garganta** — protege o acesso à **Ponte de Thal'Zir**; presença
+4. **Distrito da Garganta** — protege o acesso à **Ponte de Thal’Zir**; presença
    constante da **Guarda Real**.
 5. **Costa Rochosa** — área costeira acidentada com o **Forte Abandonado da
    Costa**, onde circulam rumores sobre criaturas antigas e atividades
@@ -103,7 +103,7 @@ título honorário de **"Portadores das Correntes"**.
 
 - **Lord Borias Goldvein** — Mestre do Porto e representante do Conselho dos
   Navegantes.
-- **Dama Elvina Sterngaze** — Comandante da Guarda Real e da Ponte de Thal'Zir.
+- **Dama Elvina Sterngaze** — Comandante da Guarda Real e da Ponte de Thal’Zir.
 - **Mestre Ferreiro Thorek Runenbrand** — anão de DurunDralin, líder da **Guilda
   dos Ferreiros** e consultor pessoal da rainha.
 
@@ -111,7 +111,7 @@ título honorário de **"Portadores das Correntes"**.
 
 - **Palácio do Vale** — sede do governo; símbolo da aliança entre humanos e
   anões.
-- **Ponte de Thal'Zir** — travessia fortificada, vital para o comércio com
+- **Ponte de Thal’Zir** — travessia fortificada, vital para o comércio com
   Thalendor.
 - **O Grande Martelo** — a principal forja de Durnvale; famosa por armaduras
   encantadas.
@@ -138,7 +138,7 @@ título honorário de **"Portadores das Correntes"**.
 - _O Espírito do Estreito_ — um antigo capitão amaldiçoado que naufraga navios
   que ignoram as oferendas.
 - _O Tesouro da Ponte_ — diz-se que há um cofre selado sob a estrutura de
-  Thal'Zir.
+  Thal’Zir.
 - _O Guardião Rochoso_ — uma entidade que protegeria o que está selado dentro do
   forte abandonado.
 
@@ -152,34 +152,4 @@ título honorário de **"Portadores das Correntes"**.
   vigilância religiosa.
 - **Irtuman:** importador de artefatos e itens de luxo.
 - **Bryndor:** região central em expansão comercial, de onde vêm parte dos grãos
-  e ervas raras. Documentação futura em "Regiões Centrais de Barilis".
-
-## Possibilidades narrativas
-
-As situações abaixo são potenciais do cenário e não representam acontecimentos
-já ocorridos.
-
-1. Desaparecimentos próximos ao Forte da Costa Rochosa reacendem a lenda do
-   "selado".
-2. O Conselho dos Navegantes suspeita de sabotagem nas boias rúnicas do
-   estreito.
-3. Pressões de Thalendor por redução de tarifas ameaçam a neutralidade de
-   Durnvale.
-4. Rumores de uma antiga ruína submersa sob o porto despertam o interesse de
-   Aurathil.
-5. Um artefato roubado de DurunDralin teria sido visto no mercado negro de
-   Correntes.
-
-## Observações e Pendências Canônicas
-
-- O nome **Durnvale** está confirmado como grafia oficial; quaisquer ocorrências
-  de "Durunvale" devem ser tratadas como erro ou variante histórica.
-- **Bryndor** será tratado futuramente em documento próprio de regiões centrais.
-- Inserir referência cruzada ao Forte da Costa Rochosa caso venha a ser
-  expandido.
-- A nomenclatura entre **Ponte de Thal'Zir** e **Ponte da Garganta de Thal'Zir**
-  permanece pendente de auditoria.
-- A relação exata entre **Garganta de Thal'Zir** e a ponte permanece pendente de
-  auditoria.
-- A nomenclatura entre **Forte da Costa Rochosa** e **Forte Abandonado da
-  Costa** permanece pendente de auditoria.
+  e ervas raras.

@@ -27,3 +27,13 @@ dos materiais.
   dados temporários do cânon ativo.
 - Um documento em `world/` pode ser melhorado gradualmente, mas sua origem deve
   continuar rastreável nos documentos de migração.
+
+## Uso por Assistentes
+
+1. Em tarefas de mestre, o assistente consulta `world/public/` e
+   `world/private/`.
+2. Em respostas para jogadores, o assistente usa apenas conteúdo `public` com
+   status `canonical`, salvo autorização explícita do mestre.
+3. Conteúdo `gm` é restrito ao mestre.
+4. Conteúdo com status `review` pode inspirar preparação e geração de aventuras,
+   mas não pode ser apresentado como fato canônico consumado.
