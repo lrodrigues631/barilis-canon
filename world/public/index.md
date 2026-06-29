@@ -122,7 +122,7 @@ férteis, rotas comerciais e disputas silenciosas.
 **Locais e marcos relevantes:**
 
 - Estreito das Mil Correntes
-- Garganta de Thal'Zir
+- Garganta de Thal’Zir
 - Vale dos Últimos Suspiros
 - Hollowmist
 - Eldewood

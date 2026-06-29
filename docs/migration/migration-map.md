@@ -16,42 +16,43 @@ Mapa operacional para migração futura de materiais brutos para a base canônic
 
 ## Ordem de Migração Proposta
 
-| Ordem | Fonte                                             | Ação                                                                                                                                                                                                          |
-| ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | `sources/#00_index_unificado_barilis.md`          | Migrado nesta etapa para `world/public/index.md`; manter bruto preservado em `sources/`.                                                                                                                      |
-| 2     | `sources/#1-lore-antiga-revisada.md`              | Migrar história geral, conferindo dependências macro com `world/public/index.md`.                                                                                                                             |
-| 3     | `sources/#2.1-reino-de-durnvale.md`               | Dividido nesta etapa entre `world/public/geography/central/realms/durnvale/index.md` e `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md`; manter bruto preservado em `sources/`. |
-| 4     | `sources/#2.3-reino-de-thalendor-atualizado.md`   | Dividido nesta etapa entre `world/public/geography/central/realms/thalendor/index.md` e `world/private/geography/central/realms/thalendor/segredos-e-redes.md`; manter bruto preservado em `sources/`.        |
-| 5     | `sources/#2.4-reino-de-durundralin-atualizado.md` | Consolidado nesta etapa como fonte primária; migrar futuramente para `world/public/geography/north-central/realms/durundralin/`.                                                                              |
-| 6     | Arquivos individuais de reinos restantes          | Migrar cada território para a pasta geográfica correspondente.                                                                                                                                                |
-| 7     | `sources/outros-lugares.md`                       | Migrar lugares menores e relações regionais; usar como substituto das listas antigas.                                                                                                                         |
-| 8     | `sources/torres-de-marfim.md`                     | Migrar como instituição própria, sem absorver em região.                                                                                                                                                      |
-| 9     | `sources/uldain.md`                               | Migrar como `aguas-de-uldain`, com nome exibido Águas de Uldain e alias Uldain, após split de visibilidade e escopo.                                                                                          |
-| 10    | `sources/economia_barilis.md`                     | Separar contexto econômico canônico de diretrizes operacionais de mestre antes de migrar.                                                                                                                     |
-| 11    | `sources/orientation_project_barilis.md`          | Extrair apenas regras permanentes aprovadas para `docs/governance/`; não migrar para `world/`.                                                                                                                |
-| 12    | Arquivos fora do escopo                           | Manter fora de `world/`; avaliar `barilis-master`, remoção ou documentação externa.                                                                                                                           |
+| Ordem | Fonte                                             | Ação                                                                                                                                                                                                                     |
+| ----- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1     | `sources/#00_index_unificado_barilis.md`          | Migrado nesta etapa para `world/public/index.md`; manter bruto preservado em `sources/`.                                                                                                                                 |
+| 2     | `sources/#1-lore-antiga-revisada.md`              | Migrar história geral, conferindo dependências macro com `world/public/index.md`.                                                                                                                                        |
+| 3     | `sources/#2.1-reino-de-durnvale.md`               | Dividido nesta etapa entre `world/public/geography/central/realms/durnvale/index.md` e `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md`; manter bruto preservado em `sources/`.            |
+| 4     | `sources/#2.3-reino-de-thalendor-atualizado.md`   | Dividido nesta etapa entre `world/public/geography/central/realms/thalendor/index.md` e `world/private/geography/central/realms/thalendor/segredos-e-redes.md`; manter bruto preservado em `sources/`.                   |
+| 5     | `sources/#2.4-reino-de-durundralin-atualizado.md` | Dividido nesta etapa entre `world/public/geography/north-central/realms/durundralin/index.md` e `world/private/geography/north-central/realms/durundralin/segredos-e-ameacas.md`; manter bruto preservado em `sources/`. |
+| 6     | Arquivos individuais de reinos restantes          | Migrar cada território para a pasta geográfica correspondente.                                                                                                                                                           |
+| 7     | `sources/outros-lugares.md`                       | Migrar lugares menores e relações regionais; usar como substituto das listas antigas.                                                                                                                                    |
+| 8     | `sources/torres-de-marfim.md`                     | Migrar como instituição própria, sem absorver em região.                                                                                                                                                                 |
+| 9     | `sources/uldain.md`                               | Migrar como `aguas-de-uldain`, com nome exibido Águas de Uldain e alias Uldain, após split de visibilidade e escopo.                                                                                                     |
+| 10    | `sources/economia_barilis.md`                     | Separar contexto econômico canônico de diretrizes operacionais de mestre antes de migrar.                                                                                                                                |
+| 11    | `sources/orientation_project_barilis.md`          | Extrair apenas regras permanentes aprovadas para `docs/governance/`; não migrar para `world/`.                                                                                                                           |
+| 12    | Arquivos fora do escopo                           | Manter fora de `world/`; avaliar `barilis-master`, remoção ou documentação externa.                                                                                                                                      |
 
 ## Fontes Ativas por Destino
 
-| Destino                                                                        | Fontes                                                                                    |
-| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| `world/public/index.md`                                                        | `#00_index_unificado_barilis.md`                                                          |
-| `world/public/history/`                                                        | `#1-lore-antiga-revisada.md`                                                              |
-| `world/public/geography/north/realms/aurathil/`                                | `#2-reino-aurathil-expandido.md`                                                          |
-| `world/public/geography/north/realms/jotungard/`                               | `#2.5-reino-jotungard.md`                                                                 |
-| `world/public/geography/north-central/realms/durundralin/`                     | `#2.4-reino-de-durundralin-atualizado.md`                                                 |
-| `world/public/geography/central/realms/durnvale/index.md`                      | Conteúdo canônico público de `#2.1-reino-de-durnvale.md`                                  |
-| `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md` | Possibilidades narrativas de mestre de `#2.1-reino-de-durnvale.md`                        |
-| `world/public/geography/central/realms/thalendor/index.md`                     | Conteúdo canônico público de `#2.3-reino-de-thalendor-atualizado.md`                      |
-| `world/private/geography/central/realms/thalendor/segredos-e-redes.md`         | Segredos, redes restritas e conteúdo de mestre de `#2.3-reino-de-thalendor-atualizado.md` |
-| `world/public/geography/south/realms/irtuman/`                                 | `#2.2-reino-de-irtuman.md`                                                                |
-| `world/public/geography/south/realms/owill/`                                   | `#2.6-reino-owill.md`                                                                     |
-| `world/public/geography/*/places/`                                             | `outros-lugares.md`                                                                       |
-| `world/public/geography/north/places/aguas-de-uldain/`                         | Parte pública de `uldain.md`, após split                                                  |
-| `world/public/geography/seas-and-islands/seas/`                                | Mares e estreitos citados no índice, em migrações futuras                                 |
-| `world/public/geography/seas-and-islands/islands/`                             | Ilhas e arquipélagos citados no índice, em migrações futuras                              |
-| `world/public/institutions/torres-de-marfim/`                                  | `torres-de-marfim.md`                                                                     |
-| A definir                                                                      | Parte canônica de `economia_barilis.md`, após split                                       |
+| Destino                                                                          | Fontes                                                                                        |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `world/public/index.md`                                                          | `#00_index_unificado_barilis.md`                                                              |
+| `world/public/history/`                                                          | `#1-lore-antiga-revisada.md`                                                                  |
+| `world/public/geography/north/realms/aurathil/`                                  | `#2-reino-aurathil-expandido.md`                                                              |
+| `world/public/geography/north/realms/jotungard/`                                 | `#2.5-reino-jotungard.md`                                                                     |
+| `world/public/geography/north-central/realms/durundralin/index.md`               | Conteúdo canônico público de `#2.4-reino-de-durundralin-atualizado.md`                        |
+| `world/private/geography/north-central/realms/durundralin/segredos-e-ameacas.md` | Segredos, ameaças restritas e conteúdo de mestre de `#2.4-reino-de-durundralin-atualizado.md` |
+| `world/public/geography/central/realms/durnvale/index.md`                        | Conteúdo canônico público de `#2.1-reino-de-durnvale.md`                                      |
+| `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md`   | Possibilidades narrativas de mestre de `#2.1-reino-de-durnvale.md`                            |
+| `world/public/geography/central/realms/thalendor/index.md`                       | Conteúdo canônico público de `#2.3-reino-de-thalendor-atualizado.md`                          |
+| `world/private/geography/central/realms/thalendor/segredos-e-redes.md`           | Segredos, redes restritas e conteúdo de mestre de `#2.3-reino-de-thalendor-atualizado.md`     |
+| `world/public/geography/south/realms/irtuman/`                                   | `#2.2-reino-de-irtuman.md`                                                                    |
+| `world/public/geography/south/realms/owill/`                                     | `#2.6-reino-owill.md`                                                                         |
+| `world/public/geography/*/places/`                                               | `outros-lugares.md`                                                                           |
+| `world/public/geography/north/places/aguas-de-uldain/`                           | Parte pública de `uldain.md`, após split                                                      |
+| `world/public/geography/seas-and-islands/seas/`                                  | Mares e estreitos citados no índice, em migrações futuras                                     |
+| `world/public/geography/seas-and-islands/islands/`                               | Ilhas e arquipélagos citados no índice, em migrações futuras                                  |
+| `world/public/institutions/torres-de-marfim/`                                    | `torres-de-marfim.md`                                                                         |
+| A definir                                                                        | Parte canônica de `economia_barilis.md`, após split                                           |
 
 ## Não Migrar Para `world/`
 
