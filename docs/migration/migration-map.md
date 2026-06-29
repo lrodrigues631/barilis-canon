@@ -40,7 +40,7 @@ Mapa operacional para migração futura de materiais brutos para a base canônic
 | `world/public/geography/north-central/realms/durundralin/`                     | `#2.4-reino-durundralin.md`                                        |
 | `world/public/geography/central/realms/durnvale/index.md`                      | Conteúdo canônico público de `#2.1-reino-de-durnvale.md`           |
 | `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md` | Possibilidades narrativas de mestre de `#2.1-reino-de-durnvale.md` |
-| `world/public/geography/central/realms/thalendor/`                             | `#2.3-reino-de-thalendor.md`                                       |
+| `world/public/geography/central/realms/thalendor/`                             | `#2.3-reino-de-thalendor-atualizado.md`                            |
 | `world/public/geography/south/realms/irtuman/`                                 | `#2.2-reino-de-irtuman.md`                                         |
 | `world/public/geography/south/realms/owill/`                                   | `#2.6-reino-owill.md`                                              |
 | `world/public/geography/*/places/`                                             | `outros-lugares.md`                                                |
