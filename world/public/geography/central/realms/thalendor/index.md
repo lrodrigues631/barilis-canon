@@ -164,9 +164,6 @@ A economia local segue três camadas principais:
   acesso;
 - **comércio de elite:** abundante, exclusivo e extremamente caro.
 
-Para preços, disponibilidade, barganha e serviços, a referência operacional é
-`economia_barilis.md`.
-
 ## Justiça e Segurança
 
 A ordem jurídica de Thalendor protege a continuidade do sistema mercantil. As
@@ -209,8 +206,7 @@ representa autoridade excepcional da Coroa.
 ### Escolhidos de Zareth
 
 Grupo conhecido publicamente por sua ligação com **Thalion Silvershade**, filho
-de Gavin. O alcance político, militar ou religioso do grupo deve ser tratado em
-documento próprio.
+de Gavin.
 
 ## Locais Públicos Consolidados
 
@@ -267,9 +263,7 @@ memória política da Casa Silvershade.
 
 ### Thalion Silvershade
 
-Filho de Gavin e líder público dos Escolhidos de Zareth. Seu papel, sua relação
-com a Coroa e o alcance dos Escolhidos devem ser detalhados em documento
-próprio.
+Filho de Gavin e líder público dos Escolhidos de Zareth.
 
 ### Velho Garran
 
@@ -279,8 +273,7 @@ Ruelas de Nyss.
 ### Dornak Martelo-de-Ferro
 
 Ferreiro de referência nos Baixios de Harken, ligado à **Ferraria
-Martelo-de-Ferro**. Seus vínculos comerciais, familiares e políticos devem ser
-detalhados em documento próprio.
+Martelo-de-Ferro**.
 
 ## Relações Externas
 
