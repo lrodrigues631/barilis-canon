@@ -1,0 +1,155 @@
+---
+id: realm.durnvale
+title: Durnvale
+entity_type: realm
+status: canonical
+visibility: public
+slug: durnvale
+region: central
+geographic_position: central
+relations: []
+updated_at: "2026-06-26"
+---
+
+# Durnvale — O Reino do Vale das Correntes
+
+## Descrição Geral
+
+Durnvale é um pequeno mas estratégico reino situado ao norte de **Thalendor**,
+conhecido por controlar a **Ponte da Garganta de Thal’Zir** — a única travessia
+segura entre o norte e o centro do continente.
+
+Embora de território limitado, o reino detém **grande importância econômica e
+militar**, sustentando-se pelo comércio marítimo e pelas rotas de exportação
+controladas através do **Estreito das Mil Correntes**, cuja navegação é
+considerada uma das mais perigosas de Barilis.
+
+Sua cultura e arquitetura demonstram clara influência dos **anões de
+DurunDralin**, principalmente nas forjas e estruturas defensivas. O lema local,
+_"Força nas Correntes, Riqueza no Aço"_, resume a filosofia do povo durnvalense.
+
+## Posição Geográfica e Fronteiras
+
+- **Sul:** Reino de **Thalendor**, conectado pela **Ponte de Thal’Zir**.
+- **Norte:** Estreito das Mil Correntes, com mares turbulentos e traiçoeiros.
+- **Leste:** Reino anão de **DurunDralin**, com intensa troca de tecnologia e
+  metalurgia.
+- **Oeste:** vilarejos costeiros e o **Forte da Costa Rochosa**, atualmente em
+  ruínas.
+- **Terreno predominante:** vales pedregosos, rios estreitos e encostas
+  marítimas.
+
+## Economia e Comércio
+
+Durnvale é uma potência comercial em escala regional, sustentada pelo controle
+de passagem terrestre e marítima.
+
+### Exportações Principais
+
+- Minérios refinados e ligas metálicas: ouro, prata, platina.
+- Joias e ornamentos encantados.
+- Tapetes e tecidos do **Alto Vale**.
+
+### Importações Principais
+
+- **Armas e ferramental** de **DurunDralin**.
+- **Produtos agrícolas** de **Thalendor** e da região de **Bryndor**, ainda em
+  desenvolvimento canônico.
+- **Artefatos mágicos** de **Irtuman** e **Aurathil**.
+
+### Observações
+
+O reino opera com **forte regulamentação portuária**, exigindo selos de passagem
+e registro de carga. Capitães habilitados para enfrentar o Estreito recebem o
+título honorário de **"Portadores das Correntes"**.
+
+## Estrutura Territorial
+
+1. **O Alto Vale** — centro administrativo e sede da nobreza; abriga o **Palácio
+   do Vale** e a **Casa dos Arquivistas**, onde são guardados tratados e
+   registros de comércio.
+2. **Porto de Correntes** — único porto ativo; projetado para resistir às marés
+   do estreito; abriga o **Forte Naval** e o **Conselho dos Navegantes**.
+3. **Mercado do Vale** — coração artesanal; concentra as forjas, ourives e
+   tecelões.
+4. **Distrito da Garganta** — protege o acesso à **Ponte de Thal’Zir**; presença
+   constante da **Guarda Real**.
+5. **Costa Rochosa** — área costeira acidentada com o **Forte Abandonado da
+   Costa**, onde circulam rumores sobre criaturas antigas e atividades
+   proibidas.
+
+## Organizações e Facções
+
+- **Guilda dos Ferreiros** — supervisiona todas as forjas do reino e mantém o
+  monopólio da produção de armamentos.
+- **Guardiões da Ponte** — ordem militar de elite responsável pela segurança da
+  Garganta e pela cobrança de pedágios.
+- **Conselho dos Navegantes** — assembleia de capitães que controlam as rotas
+  marítimas e o acesso ao porto.
+
+## Política e Liderança
+
+### Rainha Lyria Deepglow
+
+- **Idade:** 47 anos.
+- **Raça:** Humana.
+- **Título:** Rainha do Vale das Correntes.
+- **Perfil:** Diplomática e prudente, Lyria mantém o equilíbrio entre o poderio
+  militar de **Thalendor** e a influência técnica dos anões de **DurunDralin**.
+  Defende uma política de neutralidade estratégica, mas mantém vigilância
+  constante sobre os interesses expansionistas do Rei Gavin de Thalendor.
+
+### Outros Nomes de Destaque
+
+- **Lord Borias Goldvein** — Mestre do Porto e representante do Conselho dos
+  Navegantes.
+- **Dama Elvina Sterngaze** — Comandante da Guarda Real e da Ponte de Thal’Zir.
+- **Mestre Ferreiro Thorek Runenbrand** — anão de DurunDralin, líder da **Guilda
+  dos Ferreiros** e consultor pessoal da rainha.
+
+## Lugares Notáveis
+
+- **Palácio do Vale** — sede do governo; símbolo da aliança entre humanos e
+  anões.
+- **Ponte de Thal’Zir** — travessia fortificada, vital para o comércio com
+  Thalendor.
+- **O Grande Martelo** — a principal forja de Durnvale; famosa por armaduras
+  encantadas.
+- **Porto de Correntes** — único ponto de acesso ao estreito; protegido por
+  runas marítimas.
+- **Forte da Costa Rochosa** — ruínas envoltas em lendas de maldições e
+  desaparecimentos.
+- **Resguardo do Viajante** — estalagem nobre onde se hospedam emissários e
+  mercadores estrangeiros.
+- **O Casco Quebrado** — taverna do porto, reduto de marinheiros e
+  contrabandistas.
+
+## Cultura e Tradições
+
+- **Festival das Correntes** — celebra a fundação do porto e a renovação dos
+  tratados comerciais.
+- **Oferendas ao Espírito do Estreito** — prática supersticiosa entre
+  marinheiros, que jogam moedas ou pingentes ao mar antes de zarpar.
+- **Dia do Martelo Vivo** — feriado dedicado aos ferreiros e mineradores,
+  originado da aliança com DurunDralin.
+
+### Lendas Populares
+
+- _O Espírito do Estreito_ — um antigo capitão amaldiçoado que naufraga navios
+  que ignoram as oferendas.
+- _O Tesouro da Ponte_ — diz-se que há um cofre selado sob a estrutura de
+  Thal’Zir.
+- _O Guardião Rochoso_ — uma entidade que protegeria o que está selado dentro do
+  forte abandonado.
+
+## Relações Externas
+
+- **Thalendor:** aliado comercial, porém rival político; mantém tratados de
+  neutralidade e tarifas rigorosas.
+- **DurunDralin:** parceria técnica sólida; presença constante de anões
+  engenheiros e rúnicos.
+- **Aurathil:** comércio de artefatos mágicos e consultoria arcana, mantidos sob
+  vigilância religiosa.
+- **Irtuman:** importador de artefatos e itens de luxo.
+- **Bryndor:** região central em expansão comercial, de onde vêm parte dos grãos
+  e ervas raras.
