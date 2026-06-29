@@ -49,6 +49,7 @@ updated_at: "2026-06-26"
 `region`:
 
 - `north`
+- `north-central`
 - `central`
 - `south`
 - `seas-and-islands`
