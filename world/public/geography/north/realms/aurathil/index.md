@@ -220,4 +220,4 @@ presença de cultos aquáticos.
 ### Vaelyndor
 
 Reino costeiro menor a oeste de Aurathil. Mantém vassalagem cultural e econômica
-a Aurathil; sua soberania jurídica completa não é fato público consolidado.
+a Aurathil.
