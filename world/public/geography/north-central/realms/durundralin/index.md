@@ -5,7 +5,7 @@ entity_type: realm
 status: canonical
 visibility: public
 slug: durundralin
-region: north-central
+region: null
 geographic_position: north-central
 relations: []
 updated_at: "2026-06-29"

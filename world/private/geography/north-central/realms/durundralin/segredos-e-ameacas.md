@@ -5,7 +5,7 @@ entity_type: realm_master_notes
 status: canonical
 visibility: gm
 slug: durundralin-segredos-e-ameacas
-region: north-central
+region: null
 geographic_position: north-central
 relations: []
 updated_at: "2026-06-29"

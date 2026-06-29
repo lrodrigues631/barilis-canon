@@ -22,13 +22,7 @@ const requiredFields = [
 ];
 const validStatuses = new Set(["canonical", "review", "archived"]);
 const validVisibility = new Set(["public", "gm"]);
-const validRegions = new Set([
-  "north",
-  "north-central",
-  "central",
-  "south",
-  "seas-and-islands",
-]);
+const validRegions = new Set(["north", "central", "south", "seas-and-islands"]);
 const ignoredFileNames = new Set(["README.md"]);
 
 const errors = [];
@@ -140,7 +134,7 @@ function validateFrontmatter(frontmatter, filePath) {
     !validRegions.has(frontmatter.region)
   ) {
     errors.push(
-      `${relative(filePath)}: campo "region" deve ser north, north-central, central, south, seas-and-islands ou null.`,
+      `${relative(filePath)}: campo "region" deve ser north, central, south, seas-and-islands ou null.`,
     );
   }
 
