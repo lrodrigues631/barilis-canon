@@ -16,8 +16,8 @@ updated_at: "2026-06-26"
 ## Descrição Geral
 
 Durnvale é um pequeno mas estratégico reino situado ao norte de **Thalendor**,
-conhecido por controlar a **Ponte da Garganta de Thal’Zir** — a única travessia
-segura entre o norte e o centro do continente.
+conhecido por controlar a **Ponte de Thal’Zir** — a única travessia segura entre
+o norte e o centro do continente.
 
 Embora de território limitado, o reino detém **grande importância econômica e
 militar**, sustentando-se pelo comércio marítimo e pelas rotas de exportação
