@@ -29,6 +29,8 @@ Mapa operacional para migração futura de materiais brutos para a base canônic
 | 9     | `sources/#2.6-reino-de-owill-atualizado.md`       | Dividido nesta etapa entre `world/public/geography/south/realms/owill/index.md` e `world/private/geography/south/realms/owill/segredos-e-fragilidades.md`; manter bruto preservado em `sources/`.                        |
 | 10    | `sources/outros-lugares.md`                       | Migrar lugares menores e relações regionais; usar como substituto das listas antigas.                                                                                                                                    |
 | 10.1  | `sources/vaelyndor.md`                            | Conteúdo público migrado para `world/public/geography/north/realms/vaelyndor/index.md`; manter fonte canônica dedicada preservada em `sources/`; nenhuma camada privada de mestre foi criada.                            |
+| 10.2  | `sources/sharpentrees.md`                         | Preservar como fonte bruta detalhada de Sharpentrees; material tático, eventos, regras de mesa, encontros e orientação de narração permanecem no bruto.                                                                  |
+| 10.3  | `sources/floresta-de-sharpentrees.md`             | Fonte canônica consolidada criada nesta etapa; migrar futuramente em partes pública, privada regional, organização privada e NPCs regionais.                                                                             |
 | 11    | `sources/torres-de-marfim.md`                     | Migrar como instituição própria, sem absorver em região.                                                                                                                                                                 |
 | 12    | `sources/uldain.md`                               | Migrar como `aguas-de-uldain`, com nome exibido Águas de Uldain e alias Uldain, após split de visibilidade e escopo.                                                                                                     |
 | 13    | `sources/economia_barilis.md`                     | Separar contexto econômico canônico de diretrizes operacionais de mestre antes de migrar.                                                                                                                                |
@@ -37,31 +39,35 @@ Mapa operacional para migração futura de materiais brutos para a base canônic
 
 ## Fontes Ativas por Destino
 
-| Destino                                                                          | Fontes                                                                                        |
-| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| `world/public/index.md`                                                          | `#00_index_unificado_barilis.md`                                                              |
-| `world/public/history/`                                                          | `#1-lore-antiga-revisada.md`                                                                  |
-| `world/public/geography/north/realms/aurathil/index.md`                          | Conteúdo canônico público de `#2-reino-aurathil-atualizado.md`                                |
-| `world/private/geography/north/realms/aurathil/segredos-e-intrigas.md`           | Segredos, intrigas restritas e conteúdo de mestre de `#2-reino-aurathil-atualizado.md`        |
-| `world/public/geography/north/realms/vaelyndor/index.md`                         | Conteúdo público de `sources/vaelyndor.md`                                                    |
-| `world/public/geography/north/realms/jotungard/index.md`                         | Conteúdo canônico público de `#2.5-reino-de-jotungard-atualizado.md`                          |
-| `world/private/geography/north/realms/jotungard/segredos-das-geadas.md`          | Segredos das geadas e conteúdo de mestre de `#2.5-reino-de-jotungard-atualizado.md`           |
-| `world/public/geography/north-central/realms/durundralin/index.md`               | Conteúdo canônico público de `#2.4-reino-de-durundralin-atualizado.md`                        |
-| `world/private/geography/north-central/realms/durundralin/segredos-e-ameacas.md` | Segredos, ameaças restritas e conteúdo de mestre de `#2.4-reino-de-durundralin-atualizado.md` |
-| `world/public/geography/central/realms/durnvale/index.md`                        | Conteúdo canônico público de `#2.1-reino-de-durnvale.md`                                      |
-| `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md`   | Possibilidades narrativas de mestre de `#2.1-reino-de-durnvale.md`                            |
-| `world/public/geography/central/realms/thalendor/index.md`                       | Conteúdo canônico público de `#2.3-reino-de-thalendor-atualizado.md`                          |
-| `world/private/geography/central/realms/thalendor/segredos-e-redes.md`           | Segredos, redes restritas e conteúdo de mestre de `#2.3-reino-de-thalendor-atualizado.md`     |
-| `world/public/geography/south/realms/irtuman/index.md`                           | Conteúdo canônico público de `#2.2-reino-de-irtuman-atualizado.md`                            |
-| `world/private/geography/south/realms/irtuman/segredos-e-conspiracoes.md`        | Segredos, conspirações e conteúdo de mestre de `#2.2-reino-de-irtuman-atualizado.md`          |
-| `world/public/geography/south/realms/owill/index.md`                             | Conteúdo canônico público de `#2.6-reino-de-owill-atualizado.md`                              |
-| `world/private/geography/south/realms/owill/segredos-e-fragilidades.md`          | Segredos, fragilidades e conteúdo de mestre de `#2.6-reino-de-owill-atualizado.md`            |
-| `world/public/geography/*/places/`                                               | `outros-lugares.md`                                                                           |
-| `world/public/geography/north/places/aguas-de-uldain/`                           | Parte pública de `uldain.md`, após split                                                      |
-| `world/public/geography/seas-and-islands/seas/`                                  | Mares e estreitos citados no índice, em migrações futuras                                     |
-| `world/public/geography/seas-and-islands/islands/`                               | Ilhas e arquipélagos citados no índice, em migrações futuras                                  |
-| `world/public/institutions/torres-de-marfim/`                                    | `torres-de-marfim.md`                                                                         |
-| A definir                                                                        | Parte canônica de `economia_barilis.md`, após split                                           |
+| Destino                                                                              | Fontes                                                                                                        |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| `world/public/index.md`                                                              | `#00_index_unificado_barilis.md`                                                                              |
+| `world/public/history/`                                                              | `#1-lore-antiga-revisada.md`                                                                                  |
+| `world/public/geography/north/realms/aurathil/index.md`                              | Conteúdo canônico público de `#2-reino-aurathil-atualizado.md`                                                |
+| `world/private/geography/north/realms/aurathil/segredos-e-intrigas.md`               | Segredos, intrigas restritas e conteúdo de mestre de `#2-reino-aurathil-atualizado.md`                        |
+| `world/public/geography/north/realms/vaelyndor/index.md`                             | Conteúdo público de `sources/vaelyndor.md`                                                                    |
+| `world/public/geography/north/realms/jotungard/index.md`                             | Conteúdo canônico público de `#2.5-reino-de-jotungard-atualizado.md`                                          |
+| `world/private/geography/north/realms/jotungard/segredos-das-geadas.md`              | Segredos das geadas e conteúdo de mestre de `#2.5-reino-de-jotungard-atualizado.md`                           |
+| `world/public/geography/north/places/floresta-de-sharpentrees/index.md`              | Conteúdo público de `sources/floresta-de-sharpentrees.md`                                                     |
+| `world/private/geography/north/places/floresta-de-sharpentrees/segredos-da-nevoa.md` | Conteúdo de mestre de `sources/floresta-de-sharpentrees.md`; Uldain permanece na Fase 3                       |
+| `world/private/organizations/sussurros-da-floresta.md`                               | Organização privada registrada em `sources/floresta-de-sharpentrees.md`                                       |
+| `world/private/npcs/north/sharpentrees/`                                             | NPCs locais registrados em `sources/floresta-de-sharpentrees.md`; migração futura para banco privado regional |
+| `world/public/geography/north-central/realms/durundralin/index.md`                   | Conteúdo canônico público de `#2.4-reino-de-durundralin-atualizado.md`                                        |
+| `world/private/geography/north-central/realms/durundralin/segredos-e-ameacas.md`     | Segredos, ameaças restritas e conteúdo de mestre de `#2.4-reino-de-durundralin-atualizado.md`                 |
+| `world/public/geography/central/realms/durnvale/index.md`                            | Conteúdo canônico público de `#2.1-reino-de-durnvale.md`                                                      |
+| `world/private/geography/central/realms/durnvale/possibilidades-narrativas.md`       | Possibilidades narrativas de mestre de `#2.1-reino-de-durnvale.md`                                            |
+| `world/public/geography/central/realms/thalendor/index.md`                           | Conteúdo canônico público de `#2.3-reino-de-thalendor-atualizado.md`                                          |
+| `world/private/geography/central/realms/thalendor/segredos-e-redes.md`               | Segredos, redes restritas e conteúdo de mestre de `#2.3-reino-de-thalendor-atualizado.md`                     |
+| `world/public/geography/south/realms/irtuman/index.md`                               | Conteúdo canônico público de `#2.2-reino-de-irtuman-atualizado.md`                                            |
+| `world/private/geography/south/realms/irtuman/segredos-e-conspiracoes.md`            | Segredos, conspirações e conteúdo de mestre de `#2.2-reino-de-irtuman-atualizado.md`                          |
+| `world/public/geography/south/realms/owill/index.md`                                 | Conteúdo canônico público de `#2.6-reino-de-owill-atualizado.md`                                              |
+| `world/private/geography/south/realms/owill/segredos-e-fragilidades.md`              | Segredos, fragilidades e conteúdo de mestre de `#2.6-reino-de-owill-atualizado.md`                            |
+| `world/public/geography/*/places/`                                                   | `outros-lugares.md`                                                                                           |
+| `world/public/geography/north/places/aguas-de-uldain/`                               | Parte pública de `uldain.md`, após split                                                                      |
+| `world/public/geography/seas-and-islands/seas/`                                      | Mares e estreitos citados no índice, em migrações futuras                                                     |
+| `world/public/geography/seas-and-islands/islands/`                                   | Ilhas e arquipélagos citados no índice, em migrações futuras                                                  |
+| `world/public/institutions/torres-de-marfim/`                                        | `torres-de-marfim.md`                                                                                         |
+| A definir                                                                            | Parte canônica de `economia_barilis.md`, após split                                                           |
 
 ## Não Migrar Para `world/`
 
