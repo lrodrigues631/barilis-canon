@@ -16,7 +16,7 @@ canonico: true
 Local Sagrado • Santuário Natural • Fenômeno Mágico Vivo
 
 ### Localização
-Região de Sharpentrees, continente de Barilis.  Situada em área de floresta densa, afastada de rotas comerciais, acessível apenas por trilhas naturais conhecidas por druidas, ermitões e espíritos da região.
+A Lagoa de Uldar fica no coração da Floresta de Sharpentrees, no continente de Barilis.  Situada em área de floresta densa, afastada de rotas comerciais, acessível apenas por trilhas naturais conhecidas por druidas, ermitões e espíritos da região.
 
 ### Visão Geral
 A Lagoa de Uldar, conhecida como **Águas de Uldain**, é um santuário natural dotado de propriedades curativas excepcionais.  Diferente de fontes mágicas convencionais, suas águas não concedem cura de forma direta ou previsível.  Uldain age como um sistema consciente de restauração de equilíbrio, tratando não necessariamente o ferimento solicitado, mas o desequilíbrio mais grave presente no indivíduo.

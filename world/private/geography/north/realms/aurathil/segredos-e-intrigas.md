@@ -58,14 +58,14 @@ Detalhes militares, políticos e pessoais de **Sylara Moonshade**, assim como
 lendas de traição interna, bênção de vida prolongada ou conflitos oficiosos,
 pertencem à camada privada.
 
-## Torre da Eternidade e Sharpentrees
+## Torre do Tempo e Sharpentrees
 
-Perturbações temporais associadas à **Torre da Eternidade** afetam a névoa da
+Perturbações temporais associadas à **Torre do Tempo** afetam a névoa da
 **Floresta de Sharpentrees**. Essa ligação não é conhecimento público.
 
 A causa precisa, alcance, calendário, mecanismo, responsáveis e solução não
 estão definidos como conhecimento canônico. Este arquivo registra apenas a
-associação privada entre os efeitos temporais da Torre e a névoa de
+associação privada entre os efeitos temporais da Torre do Tempo e a névoa de
 Sharpentrees.
 
 ## Sombra de Elyndor
@@ -85,8 +85,8 @@ ameaças latentes.
 > aventura. Não descrevem acontecimentos confirmados e não devem ser tratados
 > como conhecimento público.
 
-1. Perturbações planares na **Torre da Eternidade** podem indicar falhas no
-   tecido mágico.
+1. Perturbações temporais ligadas à **Torre do Tempo** podem afetar a névoa de
+   Sharpentrees.
 2. Emissários de **Jotungard** podem avaliar aliança tática contra ameaça não
    declarada ao norte.
 3. A **Sombra de Elyndor** pode envolver desaparecimentos entre estudiosos e
