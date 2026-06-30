@@ -36,8 +36,8 @@ consciente e a floresta pode perder sua principal barreira natural contra o
 mundo externo.
 
 O funcionamento detalhado de Uldain, Lythael, a Passagem Submersa, os Registros
-Antigos, o rito falho e as consequências da libertação permanecem em
-`sources/uldain.md`.
+Antigos, o rito falho e as consequências da libertação permanecem definidos na
+documentação canônica própria de Uldain.
 
 ## Torre do Tempo
 

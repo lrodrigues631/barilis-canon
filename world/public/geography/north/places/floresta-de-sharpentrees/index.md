@@ -43,14 +43,20 @@ das Tempestades.
 Os **Rostos de Pedra** são formações colossais ligadas, em lendas, a titãs.
 
 As **Águas de Uldain** são um santuário no coração da floresta. Uldain possui
-fonte própria preservada em `sources/uldain.md` e não é detalhada neste arquivo.
+documentação canônica própria e não é detalhada neste arquivo.
 
 ## Relações Regionais
 
-Sharpentrees possui relação ampla com Aurathil, Jotungard, Silverglen e Owill.
-Essa relação expressa proximidade geográfica, circulação regional, tensões de
-fronteira natural e vínculos de travessia, sem criar administração conjunta ou
-controle formal da floresta.
+Aurathil e Jotungard se relacionam com Sharpentrees por posição regional e pela
+função da floresta como fronteira natural entre territórios e povos do Norte.
+
+Silverglen se relaciona com Sharpentrees por circulação regional, sem rota
+oficial definida.
+
+Owill possui ligação indireta com Sharpentrees, de caráter druídico e cultural.
+
+Nenhuma dessas relações cria rotas fixas, administração conjunta, comércio
+formal ou controle político da floresta.
 
 ## Limites Canônicos
 
