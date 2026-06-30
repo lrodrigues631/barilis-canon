@@ -131,7 +131,7 @@ cidade, província ou distrito administrativo.
 - **Vale das Runas Antigas**, sítio de meditação, inscrições e visões;
 - **Cavernas de Eldaraiith**, cavernas associadas a rotas e regiões internas de
   Aurathil;
-- **Torre da Eternidade**, centro superior de estudo arcano e religioso;
+- **Torre do Tempo**, centro superior de estudo arcano e religioso;
 - **Biblioteca de Telarion**, centro de conhecimento com acervo arcano;
 - **Salão das Harmônias Eternas**, teatro mágico de espetáculos e encontros
   políticos discretos;
@@ -168,10 +168,10 @@ proteção de ruínas e templos de Corellon, monitoramento de criaturas mágicas
 projeção de poder altaneiro em áreas periféricas. **Lytharion Windgaze** é o
 Guardião Supremo.
 
-### Torre da Eternidade
+### Torre do Tempo
 
 Centro superior de estudo arcano e religioso, onde magos e sacerdotes estudam o
-véu entre os planos. A Torre da Eternidade pertence ao contexto de Aurathil,
+véu entre os planos. A Torre do Tempo pertence ao contexto de Aurathil,
 distinta das **Torres de Marfim**, instituição independente e neutra da Região
 Central.
 
@@ -251,7 +251,7 @@ a Aurathil, sem que esta fonte defina sua soberania jurídica completa.
 
 Instituição independente e neutra da Região Central. Aurathil reconhece as
 Torres como principal centro de neutralidade mágica de Barilis, sem filiação
-institucional definida com a Torre da Eternidade.
+institucional definida com a Torre do Tempo.
 
 ## 10. Informação restrita ao mestre
 
@@ -297,13 +297,13 @@ Detalhes militares, políticos e pessoais de Sylara, assim como lendas de
 traição interna, benção de vida prolongada ou conflitos oficiosos, pertencem à
 camada privada.
 
-### Torre da Eternidade e Sharpentrees
+### Torre do Tempo e Sharpentrees
 
-Perturbações temporais associadas à **Torre da Eternidade** afetam a névoa da
+Perturbações temporais associadas à **Torre do Tempo** afetam a névoa da
 **Floresta de Sharpentrees**. Essa ligação não é conhecimento público.
 
-A causa precisa, alcance, calendário, mecanismo, culpados e solução não estão
-estabelecidos como conhecimento canônico aberto.
+A causa precisa, alcance, calendário, mecanismo, responsáveis e solução
+continuam indefinidos.
 
 ### Sombra de Elyndor
 
@@ -322,8 +322,8 @@ ameaças latentes.
 > aventura. Não descrevem acontecimentos confirmados e não devem ser tratados
 > como conhecimento público.
 
-1. Perturbações planares na **Torre da Eternidade** podem indicar falhas no
-   tecido mágico.
+1. Perturbações temporais ligadas à **Torre do Tempo** podem afetar a névoa de
+   Sharpentrees.
 2. Emissários de **Jotungard** podem avaliar aliança tática contra ameaça não
    declarada ao norte.
 3. A **Sombra de Elyndor** pode envolver desaparecimentos entre estudiosos e

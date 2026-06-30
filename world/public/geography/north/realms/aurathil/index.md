@@ -111,7 +111,7 @@ Entre áreas internas, locais e centros conhecidos de Aurathil estão:
 - **Vale das Runas Antigas**, sítio de meditação, inscrições e visões;
 - **Cavernas de Eldaraiith**, cavernas associadas a rotas e regiões internas de
   Aurathil;
-- **Torre da Eternidade**, centro superior de estudo arcano e religioso;
+- **Torre do Tempo**, centro superior de estudo arcano e religioso;
 - **Biblioteca de Telarion**, centro de conhecimento com acervo arcano;
 - **Salão das Harmônias Eternas**, teatro mágico de espetáculos e encontros
   políticos discretos;
@@ -148,10 +148,10 @@ proteção de ruínas e templos de Corellon, monitoramento de criaturas mágicas
 projeção de poder altaneiro em áreas periféricas. **Lytharion Windgaze** é o
 Guardião Supremo.
 
-### Torre da Eternidade
+### Torre do Tempo
 
 Centro superior de estudo arcano e religioso, onde magos e sacerdotes estudam o
-véu entre os planos. A Torre da Eternidade pertence ao contexto de Aurathil e é
+véu entre os planos. A Torre do Tempo pertence ao contexto de Aurathil e é
 distinta das **Torres de Marfim**, instituição independente e neutra da Região
 Central.
 
