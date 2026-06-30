@@ -1,0 +1,301 @@
+{
+  "status": "analisado_sem_alteracoes",
+  "arquivo": "MAPA-CONTINENTAL.png",
+  "referencia_espacial": {
+    "id": "mapa-continental-barilis",
+    "imagem": "sources/MAPA-CONTINENTAL.png",
+    "json": "sources/MAPA-CONTINENTAL.json",
+    "papel": "referência visual espacial auxiliar",
+    "precedencia": "subordinada ao índice geográfico e às fontes canônicas consolidadas",
+    "uso_permitido": [
+      "posição macro",
+      "proximidade visual",
+      "adjacência ampla",
+      "auditoria de rótulos e duplicidades geográficas"
+    ],
+    "nao_define": [
+      "fronteiras precisas",
+      "distâncias",
+      "tempo de viagem",
+      "rotas",
+      "controle político interno",
+      "segredos de mestre",
+      "criação de entidades novas"
+    ]
+  },
+  "dimensoes_px": {
+    "largura": 1448,
+    "altura": 2048,
+    "orientacao": "vertical"
+  },
+  "leitura_geral": {
+    "titulo": "O Continente de Barilis",
+    "orientacao": "norte_no_topo",
+    "linguagem_visual": "mapa ilustrado fantástico, com marcos visuais, rótulos territoriais e sem fronteiras políticas precisas",
+    "uso_recomendado": "referência espacial e visual",
+    "regra_de_precedencia": "em caso de conflito, o índice geográfico e as fontes canônicas consolidadas continuam prevalecendo sobre a interpretação visual do mapa"
+  },
+  "macroestrutura_visual": {
+    "norte": {
+      "descricao": "faixa superior fria, montanhosa, florestal e fortemente mágica",
+      "reinos_e_areas": [
+        "Aurathil",
+        "Floresta de Sharpentrees",
+        "Jotungard",
+        "DurunDralin como faixa de transição ao sul"
+      ]
+    },
+    "centro": {
+      "descricao": "faixa intermediária marcada por reinos políticos, vales, florestas, ruínas e rotas terrestres",
+      "reinos_e_areas": [
+        "Durnvale",
+        "Thalendor",
+        "Bryndor",
+        "Hollowmist",
+        "Floresta Negra de Eldewood",
+        "Vila Gorrukh"
+      ]
+    },
+    "sul": {
+      "descricao": "faixa inferior com Irtuman, zonas naturais, deserto, pântano, ilhas e reinos marítimos",
+      "reinos_e_areas": [
+        "Irtuman",
+        "Floresta de Kristarr",
+        "Deserto de Knull",
+        "Pântano de Orkrya",
+        "Owill",
+        "Ilha de Zarathryn",
+        "Ilha Skaldheim"
+      ]
+    }
+  },
+  "entidades_principais": [
+    {
+      "nome": "Aurathil",
+      "tipo": "reino",
+      "posicao_visual": "noroeste",
+      "vizinhos_visuais": [
+        "Vila de Everbright",
+        "Vila de Emberfall",
+        "Floresta de Sharpentrees",
+        "Reino de Vaelyndor",
+        "Vila de Dawnwood"
+      ],
+      "marcos_proximos": [
+        "Floresta Dourada de Vaely",
+        "Ruínas da Torre de Eldrin"
+      ]
+    },
+    {
+      "nome": "Floresta de Sharpentrees",
+      "tipo": "floresta/região",
+      "posicao_visual": "norte-central, entre Aurathil e Jotungard",
+      "marcos_proximos": [
+        "As Águas de Uldain",
+        "Fenrir's Hollow",
+        "Ruínas de Ellum'Thar",
+        "Vale de Silverglen",
+        "O Bosque Sombrio"
+      ],
+      "funcao_espacial": "corredor florestal entre os reinos do Norte"
+    },
+    {
+      "nome": "Jotungard",
+      "tipo": "reino",
+      "posicao_visual": "nordeste",
+      "caracteristicas_visuais": [
+        "massivo complexo montanhoso",
+        "fortaleza elevada",
+        "neve e gelo predominantes"
+      ],
+      "marcos_proximos": [
+        "Os Rostos de Pedra",
+        "Vila de Frostholm"
+      ]
+    },
+    {
+      "nome": "DurunDralin",
+      "tipo": "reino",
+      "posicao_visual": "centro-leste, abaixo de Jotungard",
+      "funcao_espacial": "ponte geográfica entre Norte e Centro",
+      "caracteristicas_visuais": [
+        "cordilheira extensa",
+        "grande fortaleza anã",
+        "posição entre rotas continentais e marítimas"
+      ]
+    },
+    {
+      "nome": "Durnvale",
+      "tipo": "reino",
+      "posicao_visual": "centro-oeste, acima de Thalendor",
+      "marcos_proximos": [
+        "O Forte Abandonado",
+        "A Garganta de Thal'Zir"
+      ],
+      "funcao_espacial": "posição de controle entre rotas centrais e a passagem de Thal'Zir"
+    },
+    {
+      "nome": "Thalendor",
+      "tipo": "reino",
+      "posicao_visual": "centro-oeste, ao sul de Durnvale",
+      "marcos_proximos": [
+        "Torres de Marfim",
+        "A Praia dos Pactos Proibidos",
+        "As Covas da Névoa Eterna",
+        "O Ossuário das Marés"
+      ]
+    },
+    {
+      "nome": "Bryndor",
+      "tipo": "reino",
+      "posicao_visual": "centro-leste, entre DurunDralin e Eldewood",
+      "marcos_proximos": [
+        "Ruínas de Varthaal",
+        "As Torres de Cinza"
+      ],
+      "funcao_espacial": "elo terrestre entre o Centro, DurunDralin e os territórios florestais orientais"
+    },
+    {
+      "nome": "Vilarejo de Hollowmist",
+      "tipo": "vila",
+      "posicao_visual": "centro-sul, abaixo de Thalendor",
+      "marcos_proximos": [
+        "O Bosque das Sombras Mudas",
+        "O Abismo de Hollowmist",
+        "Santuário do Vento Eterno"
+      ]
+    },
+    {
+      "nome": "Floresta Negra de Eldewood",
+      "tipo": "floresta",
+      "posicao_visual": "centro-sudeste",
+      "marcos_proximos": [
+        "Círculo de Espinhos",
+        "Vila Gorrukh"
+      ]
+    },
+    {
+      "nome": "Irtuman",
+      "tipo": "reino",
+      "posicao_visual": "sul-central",
+      "marcos_proximos": [
+        "Prisão de Vertumbra",
+        "Floresta de Kristarr",
+        "Deserto de Knull",
+        "Pântano de Orkrya"
+      ],
+      "funcao_espacial": "grande centro político do Sul, acima das zonas naturais meridionais"
+    },
+    {
+      "nome": "Floresta de Kristarr",
+      "tipo": "floresta",
+      "posicao_visual": "ao sul de Irtuman",
+      "relacao_confirmada": "fica antes das montanhas e do Deserto de Knull"
+    },
+    {
+      "nome": "Deserto de Knull",
+      "tipo": "deserto",
+      "posicao_visual": "sudeste de Irtuman, abaixo da Floresta de Kristarr",
+      "marcos_proximos": [
+        "Vila do Farol",
+        "Vila Reina"
+      ]
+    },
+    {
+      "nome": "Owill",
+      "tipo": "reino-ilha",
+      "posicao_visual": "Sul de Barilis, em uma ilha próxima à costa continental da Região Sul",
+      "relacao_com_o_continente": "Owill está fora da massa continental, mas em proximidade visual com a costa sul. O mapa não define distância, duração de travessia, rotas ou limites marítimos."
+    },
+    {
+      "nome": "Ilha de Zarathryn",
+      "tipo": "ilha",
+      "posicao_visual": "sudoeste marítimo",
+      "relacao_visual": "a oeste de Owill"
+    },
+    {
+      "nome": "Ilha Skaldheim",
+      "tipo": "ilha",
+      "posicao_visual": "leste/sudeste marítimo",
+      "relacao_canonica_relevante": "permanece vinculada a Jotungard, apesar de aparecer visualmente distante do núcleo montanhoso do reino"
+    }
+  ],
+  "relacoes_espaciais_relevantes": [
+    {
+      "origem": "Aurathil",
+      "destino": "Jotungard",
+      "eixo_visual": "oeste-leste pelo Norte",
+      "corredor": "Floresta de Sharpentrees"
+    },
+    {
+      "origem": "Jotungard",
+      "destino": "DurunDralin",
+      "eixo_visual": "norte-sul pela cadeia montanhosa oriental"
+    },
+    {
+      "origem": "Durnvale",
+      "destino": "Thalendor",
+      "eixo_visual": "norte-sul no Centro-Oeste",
+      "marco_de_interface": "Garganta de Thal'Zir"
+    },
+    {
+      "origem": "DurunDralin",
+      "destino": "Bryndor",
+      "eixo_visual": "noroeste-sudeste",
+      "funcao": "conexão entre cordilheiras e rotas interiores"
+    },
+    {
+      "origem": "Bryndor",
+      "destino": "Eldewood e Gorrukh",
+      "eixo_visual": "oeste-leste/sudeste",
+      "funcao": "continuidade terrestre entre áreas agrícolas, ruínas e floresta"
+    },
+    {
+      "origem": "Irtuman",
+      "destino": "Kristarr e Knull",
+      "eixo_visual": "norte-sul",
+      "funcao": "transição do reino humano para os territórios naturais meridionais"
+    }
+  ],
+  "distincoes_canonicas_registradas": [
+    {
+      "nome": "Owill",
+      "tipo": "reino-ilha do Sul",
+      "status": "próximo à costa continental, sem detalhe canônico de distância ou travessia"
+    },
+    {
+      "nome": "A Grande Árvore de Owill",
+      "tipo": "centro cerimonial interno de Owill",
+      "status": "distinta"
+    },
+    {
+      "nome": "A Grande Árvore da Floresta de Kristarr",
+      "tipo": "marco natural externo ao reino de Owill",
+      "status": "distinta"
+    },
+    {
+      "nome": "Frostholm",
+      "tipo": "vila-portuária ligada ao Fiorde de Skarlheim",
+      "status": "externa à estrutura interna de Jotungard"
+    },
+    {
+      "nome": "DurunDralin",
+      "tipo": "reino em faixa de transição",
+      "status": "organizado como norte-central no repositório, sem criar quarta macro-região"
+    }
+  ],
+  "pontos_para_auditoria_futura_sem_acao_agora": [
+    {
+      "tema": "Durnvale",
+      "observacao": "o mapa usa o rótulo 'O Forte Abandonado', enquanto a divergência entre Forte da Costa Rochosa e Forte Abandonado da Costa permanece aberta no repositório"
+    },
+    {
+      "tema": "Hollowmist",
+      "observacao": "o mapa aparenta usar 'Santuário do Vento Eterno', enquanto a fonte compilada registra 'Santuário do Vento'; tratar como possível variação gráfica até auditoria específica"
+    },
+    {
+      "tema": "Skaldheim",
+      "observacao": "a ilha aparece longe do núcleo montanhoso de Jotungard, mas a relação política com Jotungard deve seguir a fonte consolidada"
+    }
+  ]
+}
