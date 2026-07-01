@@ -25,8 +25,7 @@ O bosque fica ao norte e a oeste de Hollowmist.
 
 ## Características Conhecidas
 
-A posição confirmada pelo usuário prevalece sobre qualquer descrição anterior
-que colocasse o bosque ao sul de Hollowmist.
+Sons abafados e trilhas ilusórias são as características conhecidas do bosque.
 
 ## Limites Canônicos
 

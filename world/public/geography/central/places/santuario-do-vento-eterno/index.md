@@ -26,8 +26,7 @@ Região Central.
 
 ## Características Conhecidas
 
-Santuário do Vento é apenas variação antiga de fonte. Santuário do Vento Eterno
-é o nome canônico ativo.
+O uso do local por patrulheiros e peregrinos é sua característica conhecida.
 
 ## Limites Canônicos
 
