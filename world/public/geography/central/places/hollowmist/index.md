@@ -9,7 +9,7 @@ region: central
 geographic_position: central
 relations:
   - place.eldewood
-updated_at: "2026-06-30"
+updated_at: "2026-07-01"
 ---
 
 # Hollowmist
@@ -38,7 +38,8 @@ O comércio é limitado, as viagens são perigosas e guias locais são essenciai
 
 ## Relações e Limites Canônicos
 
-Hollowmist mantém corredores naturais com Eldewood e comércio de ervas raras.
+Hollowmist fica ao sul do Pântano de Elanor e mantém corredores naturais com
+Eldewood e comércio de ervas raras.
 
 Este arquivo não cria NPCs individuais, evento separado para o Festival da Névoa
 Viva, ganchos do Abismo de Hollowmist, conteúdo privado, encontros ou

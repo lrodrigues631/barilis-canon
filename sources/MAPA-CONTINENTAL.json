@@ -287,15 +287,958 @@
   "pontos_para_auditoria_futura_sem_acao_agora": [
     {
       "tema": "Durnvale",
-      "observacao": "o mapa usa o rótulo 'O Forte Abandonado', enquanto a divergência entre Forte da Costa Rochosa e Forte Abandonado da Costa permanece aberta no repositório"
+      "observacao": "o mapa usa o rótulo 'O Forte Abandonado'; Forte Abandonado é o único nome ativo e Forte da Costa Rochosa não existe como entidade ou alias ativo"
     },
     {
-      "tema": "Hollowmist",
-      "observacao": "o mapa aparenta usar 'Santuário do Vento Eterno', enquanto a fonte compilada registra 'Santuário do Vento'; tratar como possível variação gráfica até auditoria específica"
+      "tema": "Pactos Perdidos",
+      "observacao": "Feira dos Pactos Perdidos é evento itinerante próximo às Torres de Marfim; Praia dos Pactos Proibidos, Feira dos Pactos Proibidos e Atalaia dos Pactos Proibidos não são entidades ativas"
     },
     {
       "tema": "Skaldheim",
       "observacao": "a ilha aparece longe do núcleo montanhoso de Jotungard, mas a relação política com Jotungard deve seguir a fonte consolidada"
     }
-  ]
+  ],
+  "topologia_canonica": {
+    "schema_version": "1.0.0",
+    "source": "docs/governance/continental-topology-guide.md",
+    "source_date": "2026-07-01",
+    "map_metadata": {
+      "display_orientation": "north_up",
+      "cardinal_precision": "approximate",
+      "map_role": "qualitative_auxiliary_reference",
+      "inference_rules": {
+        "may_derive_coordinates": false,
+        "may_derive_distances": false,
+        "may_derive_travel_time": false,
+        "may_derive_routes": false,
+        "may_derive_exact_borders": false,
+        "may_derive_ports": false,
+        "may_derive_internal_domain": false,
+        "may_derive_sovereignty": false,
+        "may_derive_political_adjacency": false,
+        "may_create_world_pages": false
+      }
+    },
+    "naming": {
+      "active_names": [
+        "DurunDralin",
+        "Durnvale",
+        "Forte Abandonado",
+        "Feira dos Pactos Perdidos",
+        "Floresta Dourada de Faeryl",
+        "Ruínas de Elum’Thar",
+        "Pântano de Elanor",
+        "Vila de Silverglen",
+        "Ilha de Solmath"
+      ],
+      "deprecated_labels": [
+        {
+          "label": "Durundralin",
+          "canonical_name": "DurunDralin",
+          "active_alias": false
+        },
+        {
+          "label": "Durunvale",
+          "canonical_name": "Durnvale",
+          "active_alias": false
+        },
+        {
+          "label": "Forte da Costa Rochosa",
+          "canonical_name": "Forte Abandonado",
+          "active_alias": false,
+          "entity_exists": false
+        },
+        {
+          "label": "Feira dos Pactos Proibidos",
+          "canonical_name": "Feira dos Pactos Perdidos",
+          "active_alias": false
+        },
+        {
+          "label": "Praia dos Pactos Proibidos",
+          "canonical_name": "Feira dos Pactos Perdidos",
+          "active_alias": false,
+          "entity_exists": false
+        },
+        {
+          "label": "Floresta Dourada de Vaely",
+          "canonical_name": "Floresta Dourada de Faeryl",
+          "active_alias": false
+        },
+        {
+          "label": "Ruínas de Ellum’Thar",
+          "canonical_name": "Ruínas de Elum’Thar",
+          "active_alias": false
+        },
+        {
+          "label": "Elumthar",
+          "canonical_name": "Ruínas de Elum’Thar",
+          "active_alias": false
+        },
+        {
+          "label": "Pântano de Eleanor",
+          "canonical_name": "Pântano de Elanor",
+          "active_alias": false
+        },
+        {
+          "label": "Vale de Silverglen",
+          "canonical_name": "Vila de Silverglen",
+          "active_alias": false,
+          "entity_exists": false
+        },
+        {
+          "label": "Ilha Solinach",
+          "canonical_name": "Ilha de Solmath",
+          "active_alias": false
+        }
+      ]
+    },
+    "entities": {
+      "canonical_entities": [
+        {
+          "id": "realm.aurathil",
+          "name": "Aurathil",
+          "entity_type": "realm",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/realms/aurathil/index.md"
+        },
+        {
+          "id": "realm.jotungard",
+          "name": "Jotungard",
+          "entity_type": "realm",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/realms/jotungard/index.md"
+        },
+        {
+          "id": "place.floresta-de-sharpentrees",
+          "name": "Floresta de Sharpentrees",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/floresta-de-sharpentrees/index.md"
+        },
+        {
+          "id": "realm.vaelyndor",
+          "name": "Reino de Vaelyndor",
+          "entity_type": "realm",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/realms/vaelyndor/index.md"
+        },
+        {
+          "id": "place.dawnwood",
+          "name": "Vila de Dawnwood",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/dawnwood/index.md"
+        },
+        {
+          "id": "place.emberfall",
+          "name": "Vila de Emberfall",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/emberfall/index.md"
+        },
+        {
+          "id": "place.everbright",
+          "name": "Vila de Everbright",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/everbright/index.md"
+        },
+        {
+          "id": "place.fenrirs-hollow",
+          "name": "Fenrir's Hollow",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/fenrirs-hollow/index.md"
+        },
+        {
+          "id": "place.silverglen",
+          "name": "Vila de Silverglen",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/silverglen/index.md"
+        },
+        {
+          "id": "place.frostholm",
+          "name": "Vila de Frostholm",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/frostholm/index.md"
+        },
+        {
+          "id": "realm.durundralin",
+          "name": "DurunDralin",
+          "entity_type": "realm",
+          "macro_region": "central",
+          "geographic_band": "north-central",
+          "world_path": "world/public/geography/north-central/realms/durundralin/index.md"
+        },
+        {
+          "id": "realm.durnvale",
+          "name": "Durnvale",
+          "entity_type": "realm",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/realms/durnvale/index.md"
+        },
+        {
+          "id": "realm.thalendor",
+          "name": "Thalendor",
+          "entity_type": "realm",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/realms/thalendor/index.md"
+        },
+        {
+          "id": "place.forte-abandonado",
+          "name": "Forte Abandonado",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/forte-abandonado/index.md"
+        },
+        {
+          "id": "realm.bryndor",
+          "name": "Bryndor",
+          "entity_type": "minor_realm",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/realms/bryndor/index.md"
+        },
+        {
+          "id": "place.vale-dos-ultimos-suspiros",
+          "name": "Vale dos Últimos Suspiros",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/vale-dos-ultimos-suspiros/index.md"
+        },
+        {
+          "id": "place.pantano-de-elanor",
+          "name": "Pântano de Elanor",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/pantano-de-elanor/index.md"
+        },
+        {
+          "id": "place.hollowmist",
+          "name": "Vilarejo de Hollowmist",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/hollowmist/index.md"
+        },
+        {
+          "id": "place.eldewood",
+          "name": "Floresta Negra de Eldewood",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/eldewood/index.md"
+        },
+        {
+          "id": "place.gorrukh",
+          "name": "Vila de Gorrukh",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/gorrukh/index.md"
+        },
+        {
+          "id": "place.bosque-das-sombras-mudas",
+          "name": "Bosque das Sombras Mudas",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/bosque-das-sombras-mudas/index.md"
+        },
+        {
+          "id": "place.ossuario-das-mares",
+          "name": "Ossuário das Marés",
+          "entity_type": "place",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/ossuario-das-mares/index.md",
+          "content_organization_note": "Organizado em central/places por compatibilidade; não declara soberania política."
+        },
+        {
+          "id": "event.feira-dos-pactos-perdidos",
+          "name": "Feira dos Pactos Perdidos",
+          "entity_type": "event",
+          "macro_region": "central",
+          "world_path": "world/public/geography/central/places/feira-dos-pactos-perdidos/index.md"
+        },
+        {
+          "id": "realm.irtuman",
+          "name": "Irtuman",
+          "entity_type": "realm",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/realms/irtuman/index.md"
+        },
+        {
+          "id": "realm.owill",
+          "name": "Owill",
+          "entity_type": "realm",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/realms/owill/index.md"
+        }
+      ],
+      "cartographic_references_without_world_page": [
+        {
+          "id": "institution.torres-de-marfim",
+          "name": "Torres de Marfim",
+          "entity_type": "institution_reference"
+        },
+        {
+          "id": "cartographic.estreito-das-mil-correntes",
+          "name": "Estreito das Mil Correntes",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.floresta-dourada-de-faeryl",
+          "name": "Floresta Dourada de Faeryl",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.ruinas-da-torre-de-eldrin",
+          "name": "Ruínas da Torre de Eldrin",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.floresta-de-kristarr",
+          "name": "Floresta de Kristarr",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.deserto-de-knull",
+          "name": "Deserto de Knull",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.grande-arvore-da-floresta-de-kristarr",
+          "name": "Grande Árvore da Floresta de Kristarr",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.vila-reina",
+          "name": "Vila Reina",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.vila-do-farol",
+          "name": "Vila do Farol",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.prisao-de-vertumbra",
+          "name": "Prisão de Vertumbra",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.pantano-de-orkrya",
+          "name": "Pântano de Orkrya",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.ilha-de-skaldheim",
+          "name": "Ilha de Skaldheim",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.ilha-de-solmath",
+          "name": "Ilha de Solmath",
+          "entity_type": "cartographic_reference"
+        },
+        {
+          "id": "cartographic.ilha-de-zarathryn",
+          "name": "Ilha de Zarathryn",
+          "entity_type": "cartographic_reference"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "subject_id": "realm.aurathil",
+        "predicate": "located_in_quadrant",
+        "object_value": "noroeste de Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.jotungard",
+        "predicate": "located_in_quadrant",
+        "object_value": "nordeste de Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.floresta-de-sharpentrees",
+        "predicate": "between",
+        "object_ids": ["realm.aurathil", "realm.jotungard"],
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.vaelyndor",
+        "predicate": "south_southwest_of",
+        "object_id": "realm.aurathil",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.vaelyndor",
+        "predicate": "coastal",
+        "object_value": "costa oeste/noroeste",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.dawnwood",
+        "predicate": "south_southeast_of",
+        "object_id": "realm.aurathil",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.emberfall",
+        "predicate": "north_northwest_of",
+        "object_id": "place.floresta-de-sharpentrees",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.everbright",
+        "predicate": "north_northwest_of",
+        "object_id": "place.floresta-de-sharpentrees",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.fenrirs-hollow",
+        "predicate": "north_northwest_of",
+        "object_id": "realm.jotungard",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.fenrirs-hollow",
+        "predicate": "coastal",
+        "object_value": "costa norte",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.silverglen",
+        "predicate": "southwest_of",
+        "object_id": "realm.jotungard",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.silverglen",
+        "predicate": "north_northeast_of",
+        "object_value": "base norte das Montanhas de DurunDralin",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.frostholm",
+        "predicate": "at_southeastern_border_of",
+        "object_id": "realm.jotungard",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.frostholm",
+        "predicate": "at_foothills_of",
+        "object_value": "Montanhas de DurunDralin",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.frostholm",
+        "predicate": "coastal",
+        "object_value": "costa nordeste",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.floresta-dourada-de-faeryl",
+        "predicate": "east_northeast_of",
+        "object_id": "realm.aurathil",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.floresta-dourada-de-faeryl",
+        "predicate": "southeast_of",
+        "object_id": "place.everbright",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.floresta-dourada-de-faeryl",
+        "predicate": "south_southwest_of",
+        "object_id": "place.emberfall",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ruinas-da-torre-de-eldrin",
+        "predicate": "south_of",
+        "object_id": "cartographic.floresta-dourada-de-faeryl",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ruinas-da-torre-de-eldrin",
+        "predicate": "east_of",
+        "object_id": "realm.aurathil",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ruinas-da-torre-de-eldrin",
+        "predicate": "northeast_of",
+        "object_id": "place.dawnwood",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.durundralin",
+        "predicate": "in_macro_region",
+        "object_value": "Centro",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.durundralin",
+        "predicate": "geographic_band",
+        "object_value": "norte-central",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.durundralin",
+        "predicate": "south_of",
+        "object_id": "realm.jotungard",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.durundralin",
+        "predicate": "east_of",
+        "object_id": "realm.durnvale",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.thalendor",
+        "predicate": "south_of",
+        "object_id": "realm.durnvale",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.estreito-das-mil-correntes",
+        "predicate": "north_of",
+        "object_id": "realm.durnvale",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.forte-abandonado",
+        "predicate": "northwest_of",
+        "object_id": "realm.durnvale",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.forte-abandonado",
+        "predicate": "coastal",
+        "object_value": "costa noroeste de Durnvale",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.forte-abandonado",
+        "predicate": "north_of",
+        "object_value": "Montanhas Costeiras",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.vale-dos-ultimos-suspiros",
+        "predicate": "northwest_of",
+        "object_id": "realm.bryndor",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.pantano-de-elanor",
+        "predicate": "between",
+        "object_ids": ["realm.thalendor", "realm.bryndor"],
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.pantano-de-elanor",
+        "predicate": "east_of",
+        "object_id": "realm.thalendor",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.pantano-de-elanor",
+        "predicate": "west_of",
+        "object_id": "realm.bryndor",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.hollowmist",
+        "predicate": "south_of",
+        "object_id": "place.pantano-de-elanor",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.gorrukh",
+        "predicate": "southeast_of",
+        "object_id": "place.eldewood",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.bosque-das-sombras-mudas",
+        "predicate": "west_southwest_of",
+        "object_id": "place.hollowmist",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "event.feira-dos-pactos-perdidos",
+        "predicate": "near",
+        "object_id": "institution.torres-de-marfim",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "event.feira-dos-pactos-perdidos",
+        "predicate": "event_annotation",
+        "object_value": "evento itinerante sem ponto fixo",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.ossuario-das-mares",
+        "predicate": "at_border_of",
+        "object_value": "transição entre Centro e Sul",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.ossuario-das-mares",
+        "predicate": "coastal",
+        "object_value": "costa sudoeste",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.irtuman",
+        "predicate": "in_macro_region",
+        "object_value": "Sul",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.owill",
+        "predicate": "in_macro_region",
+        "object_value": "Sul",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.owill",
+        "predicate": "island",
+        "object_value": "Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.owill",
+        "predicate": "southwest_of",
+        "object_id": "realm.irtuman",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "realm.owill",
+        "predicate": "near",
+        "object_value": "costa sul continental",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.floresta-de-kristarr",
+        "predicate": "south_of",
+        "object_id": "realm.irtuman",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.deserto-de-knull",
+        "predicate": "south_of",
+        "object_id": "cartographic.floresta-de-kristarr",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.grande-arvore-da-floresta-de-kristarr",
+        "predicate": "inside",
+        "object_id": "cartographic.floresta-de-kristarr",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.vila-reina",
+        "predicate": "south_of",
+        "object_id": "cartographic.deserto-de-knull",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.vila-reina",
+        "predicate": "coastal",
+        "object_value": "costa sul",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.vila-do-farol",
+        "predicate": "east_of",
+        "object_id": "cartographic.deserto-de-knull",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.vila-do-farol",
+        "predicate": "coastal",
+        "object_value": "costa leste",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.prisao-de-vertumbra",
+        "predicate": "belongs_to",
+        "object_id": "realm.irtuman",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.prisao-de-vertumbra",
+        "predicate": "island",
+        "object_value": "Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.prisao-de-vertumbra",
+        "predicate": "southeast_of",
+        "object_id": "realm.irtuman",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.prisao-de-vertumbra",
+        "predicate": "northeast_of",
+        "object_id": "cartographic.deserto-de-knull",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.pantano-de-orkrya",
+        "predicate": "independent_from",
+        "object_id": "realm.irtuman",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.pantano-de-orkrya",
+        "predicate": "island",
+        "object_value": "Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.pantano-de-orkrya",
+        "predicate": "north_of",
+        "object_id": "realm.owill",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.pantano-de-orkrya",
+        "predicate": "west_of",
+        "object_id": "cartographic.floresta-de-kristarr",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-skaldheim",
+        "predicate": "politically_linked_to",
+        "object_id": "realm.jotungard",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-skaldheim",
+        "predicate": "east_of",
+        "object_id": "realm.bryndor",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-skaldheim",
+        "predicate": "southeast_of",
+        "object_value": "Montanhas de DurunDralin",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-skaldheim",
+        "predicate": "northeast_of",
+        "object_id": "place.gorrukh",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-skaldheim",
+        "predicate": "northeast_of",
+        "object_id": "realm.owill",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-solmath",
+        "predicate": "located_in_quadrant",
+        "object_value": "sudeste de Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-solmath",
+        "predicate": "east_of",
+        "object_id": "realm.owill",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-solmath",
+        "predicate": "south_of",
+        "object_id": "cartographic.ilha-de-skaldheim",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.vila-do-farol",
+        "predicate": "northwest_of",
+        "object_id": "cartographic.ilha-de-solmath",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-zarathryn",
+        "predicate": "west_of",
+        "object_id": "realm.owill",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "cartographic.ilha-de-zarathryn",
+        "predicate": "distant_from",
+        "object_value": "continente de Barilis",
+        "precision": "approximate",
+        "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      }
+    ],
+    "annotations": [
+      {
+        "id": "event.feira-dos-pactos-perdidos",
+        "name": "Feira dos Pactos Perdidos",
+        "annotation_type": "event_annotation",
+        "event_kind": "itinerant_event",
+        "near_id": "institution.torres-de-marfim",
+        "has_numeric_coordinates": false,
+        "has_fixed_location": false,
+        "has_named_host_entity": false,
+        "not_a_beach": true,
+        "not_a_village": true,
+        "not_a_watchtower": true,
+        "may_derive": false,
+        "source_status": "canonical_user_confirmed"
+      }
+    ]
+  }
 }

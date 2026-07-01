@@ -8,7 +8,7 @@ slug: durnvale
 region: central
 geographic_position: central
 relations: []
-updated_at: "2026-06-26"
+updated_at: "2026-07-01"
 ---
 
 # Durnvale — O Reino do Vale das Correntes
@@ -34,8 +34,7 @@ _"Força nas Correntes, Riqueza no Aço"_, resume a filosofia do povo durnvalens
 - **Norte:** Estreito das Mil Correntes, com mares turbulentos e traiçoeiros.
 - **Leste:** Reino anão de **DurunDralin**, com intensa troca de tecnologia e
   metalurgia.
-- **Oeste:** vilarejos costeiros e o **Forte da Costa Rochosa**, atualmente em
-  ruínas.
+- **Oeste:** costa noroeste e o **Forte Abandonado**, atualmente em ruínas.
 - **Terreno predominante:** vales pedregosos, rios estreitos e encostas
   marítimas.
 
@@ -74,9 +73,8 @@ título honorário de **"Portadores das Correntes"**.
    tecelões.
 4. **Distrito da Garganta** — protege o acesso à **Ponte de Thal’Zir**; presença
    constante da **Guarda Real**.
-5. **Costa Rochosa** — área costeira acidentada com o **Forte Abandonado da
-   Costa**, onde circulam rumores sobre criaturas antigas e atividades
-   proibidas.
+5. **Costa Noroeste** — área costeira acidentada com o **Forte Abandonado**,
+   onde circulam rumores sobre criaturas antigas e atividades proibidas.
 
 ## Organizações e Facções
 
@@ -117,7 +115,7 @@ título honorário de **"Portadores das Correntes"**.
   encantadas.
 - **Porto de Correntes** — único ponto de acesso ao estreito; protegido por
   runas marítimas.
-- **Forte da Costa Rochosa** — ruínas envoltas em lendas de maldições e
+- **Forte Abandonado** — ruínas envoltas em lendas de maldições e
   desaparecimentos.
 - **Resguardo do Viajante** — estalagem nobre onde se hospedam emissários e
   mercadores estrangeiros.

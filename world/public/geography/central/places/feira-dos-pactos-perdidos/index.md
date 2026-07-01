@@ -20,8 +20,8 @@ associado ao comércio de itens mágicos únicos.
 
 ## Posição e Relações
 
-A feira ocorre em um vilarejo itinerante sem nome próprio definido. Esse
-vilarejo fica a sul-sudeste das Torres de Marfim.
+A feira é um evento itinerante próximo às Torres de Marfim, sem ponto fixo ou
+entidade anfitriã nomeada.
 
 ## Características Conhecidas
 
@@ -31,6 +31,6 @@ realização.
 ## Limites Canônicos
 
 Este arquivo não cria calendário detalhado, comerciantes, organização própria,
-mercado permanente, localização fixa, rota, vila nomeada, itens mágicos
+mercado permanente, localização fixa, rota, praia, vila, atalaia, itens mágicos
 específicos, regras de comércio, conteúdo privado, ganchos narrativos, encontros
 ou desenvolvimento adicional de campanha.

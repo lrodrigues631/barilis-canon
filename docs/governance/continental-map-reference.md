@@ -20,11 +20,13 @@ Eles podem ser usados para:
 
 Em caso de conflito, a precedência é:
 
-1. `world/public/index.md` para geografia macro, clima e tom;
-2. fontes canônicas consolidadas ativas;
-3. documentos dedicados já migrados para `world/public/` ou `world/private/`;
-4. `sources/MAPA-CONTINENTAL.json`;
-5. `sources/MAPA-CONTINENTAL.png`.
+1. `docs/governance/continental-topology-guide.md` para a sincronização
+   topológica vigente;
+2. `world/public/index.md` para geografia macro, clima e tom;
+3. fontes canônicas consolidadas ativas;
+4. documentos dedicados já migrados para `world/public/` ou `world/private/`;
+5. `sources/MAPA-CONTINENTAL.json`;
+6. `sources/MAPA-CONTINENTAL.png`.
 
 O JSON não é fonte independente de lore. Ele é um índice espacial derivado do
 mapa e de decisões canônicas aprovadas.
@@ -46,10 +48,16 @@ cânon escrito sem decisão explícita.
 
 ## Decisões espaciais já confirmadas
 
-- Owill é um reino-ilha do Sul, próximo da costa continental da Região Sul.
+- Owill é um reino-ilha do Sul, a sudoeste de Irtuman e próximo da costa
+  continental da Região Sul.
 - A Grande Árvore de Owill é um centro cerimonial interno do reino.
 - A Grande Árvore da Floresta de Kristarr é outro marco natural, externo a
   Owill.
 - Frostholm é externa à estrutura interna de Jotungard.
-- DurunDralin ocupa uma faixa de transição geográfica entre Norte e Centro;
-  `north-central` é organização do repositório, não quarta macro-região.
+- DurunDralin pertence à macro-região Central e ocupa a faixa geográfica
+  norte-central; `north-central` é organização do repositório, não quarta
+  macro-região.
+- O Ossuário das Marés é marco costeiro da transição Centro-Sul, sem relação de
+  soberania com Irtuman.
+- A Feira dos Pactos Perdidos é evento itinerante próximo às Torres de Marfim,
+  não praia, vila, atalaia ou ponto fixo.

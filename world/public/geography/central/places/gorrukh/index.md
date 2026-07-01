@@ -10,14 +10,14 @@ geographic_position: central
 relations:
   - realm.bryndor
   - place.eldewood
-updated_at: "2026-06-30"
+updated_at: "2026-07-01"
 ---
 
 # Gorrukh
 
 ## Descrição Geral
 
-Gorrukh é uma vila orc a sudoeste de Eldewood, marcada por cultura de honra e
+Gorrukh é uma vila orc a sudeste de Eldewood, marcada por cultura de honra e
 força militar.
 
 Gorrukh é uma vila costeira na costa leste do continente.

@@ -1,6 +1,6 @@
 ---
 id: place.silverglen
-title: Silverglen
+title: Vila de Silverglen
 entity_type: place
 status: canonical
 visibility: public
@@ -11,15 +11,16 @@ relations:
   - realm.aurathil
   - realm.durundralin
   - realm.vaelyndor
-updated_at: "2026-06-30"
+updated_at: "2026-07-01"
 ---
 
-# Silverglen
+# Vila de Silverglen
 
 ## Descrição Geral
 
-Silverglen é um vale ao norte das Montanhas de DurunDralin. A comunidade reúne
-mineiros e ferreiros que fornecem materiais preciosos para Aurathil.
+Silverglen é uma vila a sudoeste de Jotungard e a norte-nordeste da base norte
+das Montanhas de DurunDralin. A comunidade reúne mineiros e ferreiros que
+fornecem materiais preciosos para Aurathil.
 
 ## Comunidade e Liderança
 

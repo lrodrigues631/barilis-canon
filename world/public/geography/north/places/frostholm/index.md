@@ -9,18 +9,19 @@ region: north
 geographic_position: north
 relations:
   - realm.jotungard
-updated_at: "2026-06-30"
+updated_at: "2026-07-01"
 ---
 
 # Frostholm
 
 ## Descrição Geral
 
-Frostholm é uma vila mista nas fronteiras de Jotungard. A vila sobrevive do
-comércio com gigantes e meio-gigantes.
+Frostholm é uma vila mista na fronteira sudeste de Jotungard, nos pés das
+Montanhas de DurunDralin. A vila sobrevive do comércio com gigantes e
+meio-gigantes.
 
-Frostholm fica junto ao Fiorde de Skarlheim e atua como porto de ligação,
-permanecendo externa à estrutura interna de Jotungard.
+Frostholm fica junto ao Fiorde de Skarlheim, na costa nordeste, e atua como
+porto de ligação, permanecendo externa à estrutura interna de Jotungard.
 
 ## Comunidade e Liderança
 

@@ -5,19 +5,20 @@ entity_type: realm
 status: canonical
 visibility: public
 slug: durundralin
-region: null
+region: central
 geographic_position: north-central
 relations: []
-updated_at: "2026-06-29"
+updated_at: "2026-07-01"
 ---
 
 # DurunDralin
 
 ## Descrição Geral
 
-DurunDralin é um reino anão situado na faixa de transição entre o Norte e a
-Região Central de Barilis. Sua posição intermediária faz dele um elo geográfico
-entre montanhas, rotas comerciais e centros políticos do continente.
+DurunDralin é um reino anão da macro-região Central situado na faixa
+norte-central entre o Norte e a Região Central de Barilis. Sua posição
+intermediária faz dele um elo geográfico entre montanhas, rotas comerciais e
+centros políticos do continente.
 
 O reino é uma civilização subterrânea e montanhosa erguida sobre ferro, fogo,
 pedra, fé e trabalho técnico especializado. Suas fortalezas, forjas, aldeias

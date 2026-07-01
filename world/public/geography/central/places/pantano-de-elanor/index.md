@@ -9,6 +9,7 @@ region: central
 geographic_position: central
 relations:
   - realm.bryndor
+  - realm.thalendor
   - place.hollowmist
   - place.ruinas-de-varthaal
 updated_at: "2026-07-01"
@@ -18,12 +19,12 @@ updated_at: "2026-07-01"
 
 ## Descrição Geral
 
-O Pântano de Elanor é um corredor alagadiço entre Bryndor e Hollowmist.
+O Pântano de Elanor é um corredor alagadiço entre Thalendor e Bryndor.
 
 ## Posição e Relações
 
-O pântano fica ao norte de Hollowmist e a oeste de Bryndor. As Ruínas de
-Varthaal ficam entre Bryndor e o pântano.
+O pântano fica a leste de Thalendor e a oeste de Bryndor. Hollowmist fica ao sul
+do Pântano de Elanor.
 
 ## Características Conhecidas
 
