@@ -19,6 +19,9 @@ updated_at: "2026-06-30"
 Frostholm é uma vila mista nas fronteiras de Jotungard. A vila sobrevive do
 comércio com gigantes e meio-gigantes.
 
+Frostholm fica junto ao Fiorde de Skarlheim e atua como porto de ligação,
+permanecendo externa à estrutura interna de Jotungard.
+
 ## Comunidade e Liderança
 
 Eydis Frostblade é uma meio-gigante mediadora.
