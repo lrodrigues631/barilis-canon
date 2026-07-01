@@ -25,7 +25,8 @@ vilarejo fica a sul-sudeste das Torres de Marfim.
 
 ## Características Conhecidas
 
-Feira dos Pactos Perdidos é o nome canônico ativo do evento.
+A feira é conhecida pelo comércio de itens mágicos únicos em suas noites de
+realização.
 
 ## Limites Canônicos
 
