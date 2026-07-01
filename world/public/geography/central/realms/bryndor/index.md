@@ -21,6 +21,8 @@ updated_at: "2026-06-30"
 Bryndor é um reino humano a oeste das Montanhas de DurunDralin, conhecido por
 campos férteis e florestas densas.
 
+Bryndor possui faixa costeira na costa leste do continente.
+
 O reino atua como fornecedor de grãos e madeira e ocupa uma rota terrestre entre
 o Norte e o Sul.
 

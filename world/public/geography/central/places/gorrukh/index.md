@@ -20,6 +20,8 @@ updated_at: "2026-06-30"
 Gorrukh é uma vila orc a sudoeste de Eldewood, marcada por cultura de honra e
 força militar.
 
+Gorrukh é uma vila costeira na costa leste do continente.
+
 A vila busca integração comercial regional.
 
 ## Comunidade e Liderança
