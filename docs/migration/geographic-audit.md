@@ -191,11 +191,11 @@ Nenhuma divergência topológica deste lote permanece aberta após a aplicação
 
 ## Entidades visuais do mapa ainda não confirmadas em fonte escrita
 
-| Item                       | Fontes em conflito ou ausência de fonte                                                 | Impacto                                                          | Recomendação de próximo passo                         |
-| -------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------- |
-| Floresta Dourada de Faeryl | Confirmada pelo guia topológico como referência cartográfica.                           | Não criar página em `world/` nesta etapa.                        | Registrar apenas no JSON topológico.                  |
-| Ruínas da Torre de Eldrin  | Confirmada pelo guia topológico como referência cartográfica.                           | Não criar página em `world/` nesta etapa.                        | Registrar apenas no JSON topológico.                  |
-| Feira dos Pactos Perdidos  | Guia topológico elimina Praia/Feira/Atalaia dos Pactos Proibidos como entidades ativas. | Não criar praia, vila, atalaia, ponto fixo ou anfitrião nomeado. | Registrar como anotação de evento no JSON topológico. |
+| Item                       | Fontes em conflito ou ausência de fonte                                         | Impacto                                                 | Recomendação de próximo passo                         |
+| -------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
+| Floresta Dourada de Faeryl | Confirmada pelo guia topológico como referência cartográfica.                   | Não criar página em `world/` nesta etapa.               | Registrar apenas no JSON topológico.                  |
+| Ruínas da Torre de Eldrin  | Confirmada pelo guia topológico como referência cartográfica.                   | Não criar página em `world/` nesta etapa.               | Registrar apenas no JSON topológico.                  |
+| Feira dos Pactos Perdidos  | Guia topológico elimina Praia/Feira dos Pactos Proibidos como entidades ativas. | Não criar praia, vila, ponto fixo ou anfitrião nomeado. | Registrar como anotação de evento no JSON topológico. |
 
 ## Roteiro para a Fase 2
 
