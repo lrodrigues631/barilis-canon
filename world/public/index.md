@@ -8,7 +8,7 @@ slug: barilis
 region: null
 geographic_position: global
 relations: []
-updated_at: "2026-06-26"
+updated_at: "2026-07-01"
 ---
 
 # Barilis — Índice Geográfico Unificado
@@ -102,8 +102,8 @@ presença arcana intensa e forte influência religiosa.
 - Cooperação arcana e metalúrgica Aurathil ↔ DurunDralin
 - Rotas subterrâneas DurunDralin ↔ Centro
 
-**Nota geográfica:** DurunDralin situa-se na faixa de transição geográfica entre
-o Norte e a Região Central.
+**Nota geográfica:** DurunDralin pertence à macro-região Central e situa-se na
+faixa geográfica norte-central entre o Norte e a Região Central.
 
 ### 2.2 Região Central
 
@@ -127,6 +127,7 @@ férteis, rotas comerciais e disputas silenciosas.
 - Hollowmist
 - Eldewood
 - Vila Gorrukh
+- Ossuário das Marés
 
 **Conexões:**
 
@@ -152,12 +153,11 @@ fronteira de expansão humana.
 - Deserto de Knull
 - Pântano de Orkrya
 - Prisão de Vertumbra
-- Ossuário das Marés
 
 **Conexões:**
 
 - Tensões entre Irtuman e reinos do Norte
-- Relação diplomática e espiritual com Owill
+- Relação diplomática e espiritual com Owill, reino-ilha a sudoeste de Irtuman
 
 ## 3. Oceanos e Mares de Barilis
 
@@ -194,7 +194,7 @@ Os mares são entidades narrativas próprias. Controlam fluxo, poder e destino.
 ### 3.5 Azul Profundo
 
 - **Tom:** belo e perigoso
-- **Vínculos:** Owill, Solmath, Zarathryn
+- **Vínculos:** Owill, Ilha de Solmath, Zarathryn
 - **Temas:** recifes vivos, diplomacia marítima
 
 ## 4. Arquipélagos e Ilhas — Através dos Mares
@@ -211,7 +211,7 @@ As ilhas funcionam como polos independentes que afetam todo o continente.
 - **Governo:** Conselho das Cinco Famílias
 - **Função:** hub clandestino e informacional
 
-### 4.2 Solmath
+### 4.2 Ilha de Solmath
 
 - **Perfil:** magia elemental e neutralidade
 - **Governo:** Corte Elemental

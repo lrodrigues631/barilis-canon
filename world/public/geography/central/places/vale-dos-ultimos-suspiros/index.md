@@ -23,8 +23,7 @@ de batalhas antigas.
 
 ## Posição e Relações
 
-O vale fica ao sudeste de Bryndor, nos pés das Montanhas de DurunDralin e ao
-norte do Pântano de Elanor.
+O vale fica a noroeste de Bryndor.
 
 ## Características Conhecidas
 

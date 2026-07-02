@@ -8,7 +8,7 @@ slug: owill
 region: south
 geographic_position: south
 relations: []
-updated_at: "2026-06-30"
+updated_at: "2026-07-01"
 ---
 
 # Owill
@@ -16,9 +16,9 @@ updated_at: "2026-06-30"
 ## Descrição Geral
 
 Owill é um reino-ilha élfico tropical do Sul de Barilis. Está fora da massa
-continental, em uma ilha próxima à costa continental da Região Sul, associado a
-florestas densas, mares cristalinos, espiritualidade druídica e influência
-feérica.
+continental, em uma ilha próxima à costa continental da Região Sul, a sudoeste
+de Irtuman, associado a florestas densas, mares cristalinos, espiritualidade
+druídica e influência feérica.
 
 O reino inclui a ilha principal homônima e os arquipélagos de **Thalanor** e
 **Lethiriel**. Não há distância, rota marítima, tempo de travessia ou fronteira
@@ -83,8 +83,8 @@ mercadores, emissários e trocas culturais.
 ## Geografia, Arquipélagos e Locais Conhecidos
 
 Owill é composto pela ilha principal homônima e pelos arquipélagos de
-**Thalanor** e **Lethiriel**. Suas vilas se erguem entre árvores colossais,
-pontes vivas e raízes moldadas por magia druídica.
+**Thalanor** e **Lethiriel**, a sudoeste de Irtuman. Suas vilas se erguem entre
+árvores colossais, pontes vivas e raízes moldadas por magia druídica.
 
 Locais públicos conhecidos:
 

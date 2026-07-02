@@ -7,8 +7,7 @@ visibility: public
 slug: ossuario-das-mares
 region: central
 geographic_position: central
-relations:
-  - place.santuario-do-vento-eterno
+relations: []
 updated_at: "2026-07-01"
 ---
 
@@ -16,12 +15,11 @@ updated_at: "2026-07-01"
 
 ## Descrição Geral
 
-O Ossuário das Marés é um marco costeiro da Região Central.
+O Ossuário das Marés é um marco costeiro da transição entre Centro e Sul.
 
 ## Posição e Relações
 
-O ossuário fica ao sul do Santuário do Vento Eterno, na costa sudoeste da Região
-Central, a oeste da faixa divisória entre Centro e Sul.
+O ossuário fica na costa sudoeste, na transição entre Centro e Sul.
 
 ## Características Conhecidas
 

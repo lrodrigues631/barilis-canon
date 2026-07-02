@@ -21,7 +21,7 @@ trilhas ilusórias.
 
 ## Posição e Relações
 
-O bosque fica ao norte e a oeste de Hollowmist.
+O bosque fica a oeste-sudoeste de Hollowmist.
 
 ## Características Conhecidas
 
