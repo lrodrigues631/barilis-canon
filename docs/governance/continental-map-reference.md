@@ -60,4 +60,4 @@ cânon escrito sem decisão explícita.
 - O Ossuário das Marés é marco costeiro da transição Centro-Sul, sem relação de
   soberania com Irtuman.
 - A Feira dos Pactos Perdidos é evento itinerante próximo às Torres de Marfim,
-  não praia, vila, atalaia ou ponto fixo.
+  não praia, vila ou ponto fixo.

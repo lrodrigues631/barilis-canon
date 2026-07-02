@@ -1,5 +1,5 @@
 {
-  "status": "analisado_sem_alteracoes",
+  "status": "sincronizado_com_topologia_canonica",
   "arquivo": "MAPA-CONTINENTAL.png",
   "referencia_espacial": {
     "id": "mapa-continental-barilis",
@@ -82,7 +82,7 @@
         "Vila de Dawnwood"
       ],
       "marcos_proximos": [
-        "Floresta Dourada de Vaely",
+        "Floresta Dourada de Faeryl",
         "Ruínas da Torre de Eldrin"
       ]
     },
@@ -93,8 +93,8 @@
       "marcos_proximos": [
         "As Águas de Uldain",
         "Fenrir's Hollow",
-        "Ruínas de Ellum'Thar",
-        "Vale de Silverglen",
+        "Ruínas de Elum’Thar",
+        "Vila de Silverglen",
         "O Bosque Sombrio"
       ],
       "funcao_espacial": "corredor florestal entre os reinos do Norte"
@@ -140,9 +140,7 @@
       "posicao_visual": "centro-oeste, ao sul de Durnvale",
       "marcos_proximos": [
         "Torres de Marfim",
-        "A Praia dos Pactos Proibidos",
-        "As Covas da Névoa Eterna",
-        "O Ossuário das Marés"
+        "As Covas da Névoa Eterna"
       ]
     },
     {
@@ -291,7 +289,7 @@
     },
     {
       "tema": "Pactos Perdidos",
-      "observacao": "Feira dos Pactos Perdidos é evento itinerante próximo às Torres de Marfim; Praia dos Pactos Proibidos, Feira dos Pactos Proibidos e Atalaia dos Pactos Proibidos não são entidades ativas"
+      "observacao": "Feira dos Pactos Perdidos é evento itinerante próximo às Torres de Marfim; Praia dos Pactos Proibidos e Feira dos Pactos Proibidos não são entidades ativas"
     },
     {
       "tema": "Skaldheim",
@@ -1235,7 +1233,6 @@
         "has_named_host_entity": false,
         "not_a_beach": true,
         "not_a_village": true,
-        "not_a_watchtower": true,
         "may_derive": false,
         "source_status": "canonical_user_confirmed"
       }

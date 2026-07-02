@@ -67,19 +67,18 @@ Toda relação cardinal aproximada deve usar `precision: "approximate"` e
 
 ## 4. Nomes canônicos ativos
 
-| Não usar como nome ativo        | Nome canônico ativo        | Regra                                                                                    |
-| ------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------- |
-| Durundralin                     | DurunDralin                | Grafia oficial.                                                                          |
-| Durunvale                       | Durnvale                   | Grafia oficial.                                                                          |
-| Forte da Costa Rochosa          | Forte Abandonado           | Forte da Costa Rochosa não existe como entidade nem alias ativo.                         |
-| Feira dos Pactos Proibidos      | Feira dos Pactos Perdidos  | Este é o único nome ativo do evento.                                                     |
-| Praia dos Pactos Proibidos      | Feira dos Pactos Perdidos  | Não é praia.                                                                             |
-| Atalaia dos Pactos Proibidos    | —                          | Não existe como entidade canônica. Não criar nem manter no mapa ou em documentos ativos. |
-| Floresta Dourada de Vaely       | Floresta Dourada de Faeryl | Nome confirmado.                                                                         |
-| Ruínas de Ellum’Thar / Elumthar | Ruínas de Elum’Thar        | Grafia oficial.                                                                          |
-| Pântano de Eleanor              | Pântano de Elanor          | Grafia oficial.                                                                          |
-| Vale de Silverglen              | Vila de Silverglen         | Não existe vale separado confirmado.                                                     |
-| Ilha Solinach                   | Ilha de Solmath            | Nome confirmado.                                                                         |
+| Não usar como nome ativo        | Nome canônico ativo        | Regra                                                            |
+| ------------------------------- | -------------------------- | ---------------------------------------------------------------- |
+| Durundralin                     | DurunDralin                | Grafia oficial.                                                  |
+| Durunvale                       | Durnvale                   | Grafia oficial.                                                  |
+| Forte da Costa Rochosa          | Forte Abandonado           | Forte da Costa Rochosa não existe como entidade nem alias ativo. |
+| Feira dos Pactos Proibidos      | Feira dos Pactos Perdidos  | Este é o único nome ativo do evento.                             |
+| Praia dos Pactos Proibidos      | Feira dos Pactos Perdidos  | Não é praia.                                                     |
+| Floresta Dourada de Vaely       | Floresta Dourada de Faeryl | Nome confirmado.                                                 |
+| Ruínas de Ellum’Thar / Elumthar | Ruínas de Elum’Thar        | Grafia oficial.                                                  |
+| Pântano de Eleanor              | Pântano de Elanor          | Grafia oficial.                                                  |
+| Vale de Silverglen              | Vila de Silverglen         | Não existe vale separado confirmado.                             |
+| Ilha Solinach                   | Ilha de Solmath            | Nome confirmado.                                                 |
 
 Referências antigas podem permanecer apenas em fontes históricas preservadas,
 nunca como entidades ou aliases ativos.
@@ -229,7 +228,7 @@ Itens obrigatórios:
 3. Forte Abandonado como único nome ativo.
 4. Feira dos Pactos Perdidos como único nome ativo e evento próximo às Torres de
    Marfim.
-5. Remoção de qualquer Atalaia dos Pactos Proibidos como entidade ativa.
+5. Remoção de nomes cartográficos inexistentes como entidades ativas.
 6. Ossuário das Marés como marco costeiro na transição Centro–Sul, sem soberania
    de Irtuman.
 7. Vale, Elanor, Hollowmist, Gorrukh e Bosque conforme as relações da seção 5.2.

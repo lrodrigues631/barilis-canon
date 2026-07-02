@@ -31,6 +31,6 @@ realização.
 ## Limites Canônicos
 
 Este arquivo não cria calendário detalhado, comerciantes, organização própria,
-mercado permanente, localização fixa, rota, praia, vila, atalaia, itens mágicos
+mercado permanente, localização fixa, rota, praia, vila, itens mágicos
 específicos, regras de comércio, conteúdo privado, ganchos narrativos, encontros
 ou desenvolvimento adicional de campanha.
