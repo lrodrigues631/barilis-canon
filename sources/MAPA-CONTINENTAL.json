@@ -589,6 +589,20 @@
           "entity_type": "place",
           "macro_region": "south",
           "world_path": "world/public/geography/south/places/grande-arvore-da-floresta-de-kristarr/index.md"
+        },
+        {
+          "id": "place.vila-reina",
+          "name": "Vila Reina",
+          "entity_type": "place",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/places/vila-reina/index.md"
+        },
+        {
+          "id": "place.vila-do-farol",
+          "name": "Vila do Farol",
+          "entity_type": "place",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/places/vila-do-farol/index.md"
         }
       ],
       "cartographic_references_without_world_page": [
@@ -610,16 +624,6 @@
         {
           "id": "cartographic.ruinas-da-torre-de-eldrin",
           "name": "Ruínas da Torre de Eldrin",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.vila-reina",
-          "name": "Vila Reina",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.vila-do-farol",
-          "name": "Vila do Farol",
           "entity_type": "cartographic_reference"
         },
         {
@@ -1043,7 +1047,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.vila-reina",
+        "subject_id": "place.vila-reina",
         "predicate": "south_of",
         "object_id": "place.deserto-de-knull",
         "precision": "approximate",
@@ -1051,7 +1055,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.vila-reina",
+        "subject_id": "place.vila-reina",
         "predicate": "coastal",
         "object_value": "costa sul",
         "precision": "approximate",
@@ -1059,7 +1063,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.vila-do-farol",
+        "subject_id": "place.vila-do-farol",
         "predicate": "east_of",
         "object_id": "place.deserto-de-knull",
         "precision": "approximate",
@@ -1067,7 +1071,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.vila-do-farol",
+        "subject_id": "place.vila-do-farol",
         "predicate": "coastal",
         "object_value": "costa leste",
         "precision": "approximate",
@@ -1203,7 +1207,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.vila-do-farol",
+        "subject_id": "place.vila-do-farol",
         "predicate": "northwest_of",
         "object_id": "cartographic.ilha-de-solmath",
         "precision": "approximate",

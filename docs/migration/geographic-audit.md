@@ -92,8 +92,8 @@ ou ajuste de fonte.
 | Deserto de Knull                        | Deserto           | Sul, abaixo/ao sudeste de Irtuman e próximo de Kristarr                                                  | `world/public/index.md`                                | Sudeste de Irtuman, abaixo de Kristarr | Migrado como página pública mínima em `world/public/geography/south/places/deserto-de-knull/index.md`                      | migrado como página mínima |
 | Pântano de Orkrya                       | Pântano           | Sul de Barilis; associado ao Pântano Verde                                                               | `world/public/index.md`                                | Pântano de Orkrya                      | `world/public/geography/south/places/pantano-de-orkrya/`                                                                   | pendente de fonte dedicada |
 | Pântano Verde                           | Assentamento      | Assentamento orc no coração do Pântano de Orkrya                                                         | `sources/outros-lugares.md`                            | Pântano de Orkrya                      | `world/public/geography/south/places/pantano-verde/`                                                                       | pendente de fonte dedicada |
-| Vila do Farol                           | Vila              | Extremo sudeste, próxima ao Deserto de Knull                                                             | `sources/outros-lugares.md`                            | Marco próximo ao Deserto de Knull      | `world/public/geography/south/places/vila-do-farol/`                                                                       | pendente de fonte dedicada |
-| Vila Reina                              | Vila              | Extremo sul, próxima ao Deserto de Knull                                                                 | `sources/outros-lugares.md`                            | Marco próximo ao Deserto de Knull      | `world/public/geography/south/places/vila-reina/`                                                                          | pendente de fonte dedicada |
+| Vila do Farol                           | Vila              | Extremo sudeste, próxima ao Deserto de Knull                                                             | `sources/outros-lugares.md`                            | Leste do Deserto de Knull; costa leste | Migrado como página pública mínima em `world/public/geography/south/places/vila-do-farol/index.md`                         | migrado como página mínima |
+| Vila Reina                              | Vila              | Extremo sul, próxima ao Deserto de Knull                                                                 | `sources/outros-lugares.md`                            | Sul do Deserto de Knull; costa sul     | Migrado como página pública mínima em `world/public/geography/south/places/vila-reina/index.md`                            | migrado como página mínima |
 | Prisão de Vertumbra                     | Marco             | Sul, citada no índice e próxima de Irtuman no mapa                                                       | `world/public/index.md`                                | Prisão de Vertumbra próxima de Irtuman | `world/public/geography/south/places/prisao-de-vertumbra/`                                                                 | pendente de fonte dedicada |
 
 ## Mares e Ilhas
@@ -146,8 +146,11 @@ ou ajuste de fonte.
   conteúdo privado ou desenvolvimento adicional. A Feira dos Pactos Perdidos
   permanece como evento itinerante sem ponto fixo, praia, vila, atalaia ou
   entidade anfitriã nomeada.
-- **Irtuman, Kristarr, Knull, Orkrya, Vila do Farol e Vila Reina:** Irtuman está
-  migrado; os demais dependem de fontes dedicadas. Kristarr não integra Owill.
+- **Irtuman, Kristarr, Knull, Vila do Farol e Vila Reina:** estão migrados; Vila
+  do Farol e Vila Reina não declaram soberania de Irtuman. Kristarr não integra
+  Owill.
+- **Orkrya e Pântano Verde:** permanecem pendentes de fonte dedicada e decisão
+  de escopo.
 - **Owill, Porto de Nymarel, Thalanor e Lethiriel:** Owill está migrado como
   reino-ilha do Sul, a sudoeste de Irtuman; porto e arquipélagos permanecem como
   elementos internos, fora do escopo de migração de lugares menores nesta
@@ -215,8 +218,6 @@ Nenhuma divergência topológica deste lote permanece aberta após a aplicação
 3. Sul
    - Pântano de Orkrya
    - Pântano Verde
-   - Vila do Farol
-   - Vila Reina
    - Prisão de Vertumbra
 
 4. Mares e Ilhas
