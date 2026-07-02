@@ -568,6 +568,27 @@
           "entity_type": "realm",
           "macro_region": "south",
           "world_path": "world/public/geography/south/realms/owill/index.md"
+        },
+        {
+          "id": "place.floresta-de-kristarr",
+          "name": "Floresta de Kristarr",
+          "entity_type": "place",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/places/floresta-de-kristarr/index.md"
+        },
+        {
+          "id": "place.deserto-de-knull",
+          "name": "Deserto de Knull",
+          "entity_type": "place",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/places/deserto-de-knull/index.md"
+        },
+        {
+          "id": "place.grande-arvore-da-floresta-de-kristarr",
+          "name": "Grande Árvore da Floresta de Kristarr",
+          "entity_type": "place",
+          "macro_region": "south",
+          "world_path": "world/public/geography/south/places/grande-arvore-da-floresta-de-kristarr/index.md"
         }
       ],
       "cartographic_references_without_world_page": [
@@ -589,21 +610,6 @@
         {
           "id": "cartographic.ruinas-da-torre-de-eldrin",
           "name": "Ruínas da Torre de Eldrin",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.floresta-de-kristarr",
-          "name": "Floresta de Kristarr",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.deserto-de-knull",
-          "name": "Deserto de Knull",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.grande-arvore-da-floresta-de-kristarr",
-          "name": "Grande Árvore da Floresta de Kristarr",
           "entity_type": "cartographic_reference"
         },
         {
@@ -1013,7 +1019,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.floresta-de-kristarr",
+        "subject_id": "place.floresta-de-kristarr",
         "predicate": "south_of",
         "object_id": "realm.irtuman",
         "precision": "approximate",
@@ -1021,17 +1027,17 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.deserto-de-knull",
+        "subject_id": "place.deserto-de-knull",
         "predicate": "south_of",
-        "object_id": "cartographic.floresta-de-kristarr",
+        "object_id": "place.floresta-de-kristarr",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.grande-arvore-da-floresta-de-kristarr",
+        "subject_id": "place.grande-arvore-da-floresta-de-kristarr",
         "predicate": "inside",
-        "object_id": "cartographic.floresta-de-kristarr",
+        "object_id": "place.floresta-de-kristarr",
         "precision": "approximate",
         "source_status": "canonical_written",
         "may_derive": false
@@ -1039,7 +1045,7 @@
       {
         "subject_id": "cartographic.vila-reina",
         "predicate": "south_of",
-        "object_id": "cartographic.deserto-de-knull",
+        "object_id": "place.deserto-de-knull",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
@@ -1055,7 +1061,7 @@
       {
         "subject_id": "cartographic.vila-do-farol",
         "predicate": "east_of",
-        "object_id": "cartographic.deserto-de-knull",
+        "object_id": "place.deserto-de-knull",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
@@ -1095,7 +1101,7 @@
       {
         "subject_id": "cartographic.prisao-de-vertumbra",
         "predicate": "northeast_of",
-        "object_id": "cartographic.deserto-de-knull",
+        "object_id": "place.deserto-de-knull",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
@@ -1127,7 +1133,7 @@
       {
         "subject_id": "cartographic.pantano-de-orkrya",
         "predicate": "west_of",
-        "object_id": "cartographic.floresta-de-kristarr",
+        "object_id": "place.floresta-de-kristarr",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
