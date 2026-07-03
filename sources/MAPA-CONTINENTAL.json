@@ -638,6 +638,27 @@
           "entity_type": "sea",
           "macro_region": "seas-and-islands",
           "world_path": "world/public/geography/seas-and-islands/seas/azul-profundo/index.md"
+        },
+        {
+          "id": "island.zarathryn",
+          "name": "Ilha de Zarathryn",
+          "entity_type": "island",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/islands/zarathryn/index.md"
+        },
+        {
+          "id": "island.solmath",
+          "name": "Ilha de Solmath",
+          "entity_type": "island",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/islands/solmath/index.md"
+        },
+        {
+          "id": "island.skaldheim",
+          "name": "Ilha de Skaldheim",
+          "entity_type": "island",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/islands/skaldheim/index.md"
         }
       ],
       "cartographic_references_without_world_page": [
@@ -669,21 +690,6 @@
         {
           "id": "cartographic.pantano-de-orkrya",
           "name": "Pântano de Orkrya",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.ilha-de-skaldheim",
-          "name": "Ilha de Skaldheim",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.ilha-de-solmath",
-          "name": "Ilha de Solmath",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.ilha-de-zarathryn",
-          "name": "Ilha de Zarathryn",
           "entity_type": "cartographic_reference"
         }
       ]
@@ -1186,7 +1192,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-skaldheim",
+        "subject_id": "island.skaldheim",
         "predicate": "politically_linked_to",
         "object_id": "realm.jotungard",
         "precision": "approximate",
@@ -1194,7 +1200,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-skaldheim",
+        "subject_id": "island.skaldheim",
         "predicate": "east_of",
         "object_id": "realm.bryndor",
         "precision": "approximate",
@@ -1202,7 +1208,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-skaldheim",
+        "subject_id": "island.skaldheim",
         "predicate": "southeast_of",
         "object_value": "Montanhas de DurunDralin",
         "precision": "approximate",
@@ -1210,7 +1216,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-skaldheim",
+        "subject_id": "island.skaldheim",
         "predicate": "northeast_of",
         "object_id": "place.gorrukh",
         "precision": "approximate",
@@ -1218,7 +1224,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-skaldheim",
+        "subject_id": "island.skaldheim",
         "predicate": "northeast_of",
         "object_id": "realm.owill",
         "precision": "approximate",
@@ -1226,7 +1232,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-solmath",
+        "subject_id": "island.solmath",
         "predicate": "located_in_quadrant",
         "object_value": "sudeste de Barilis",
         "precision": "approximate",
@@ -1234,7 +1240,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-solmath",
+        "subject_id": "island.solmath",
         "predicate": "east_of",
         "object_id": "realm.owill",
         "precision": "approximate",
@@ -1242,9 +1248,9 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-solmath",
+        "subject_id": "island.solmath",
         "predicate": "south_of",
-        "object_id": "cartographic.ilha-de-skaldheim",
+        "object_id": "island.skaldheim",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
@@ -1252,13 +1258,13 @@
       {
         "subject_id": "place.vila-do-farol",
         "predicate": "northwest_of",
-        "object_id": "cartographic.ilha-de-solmath",
+        "object_id": "island.solmath",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-zarathryn",
+        "subject_id": "island.zarathryn",
         "predicate": "west_of",
         "object_id": "realm.owill",
         "precision": "approximate",
@@ -1266,7 +1272,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.ilha-de-zarathryn",
+        "subject_id": "island.zarathryn",
         "predicate": "distant_from",
         "object_value": "continente de Barilis",
         "precision": "approximate",
