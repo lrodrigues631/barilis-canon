@@ -659,6 +659,27 @@
           "entity_type": "island",
           "macro_region": "seas-and-islands",
           "world_path": "world/public/geography/seas-and-islands/islands/skaldheim/index.md"
+        },
+        {
+          "id": "island.pantano-de-orkrya",
+          "name": "Pântano de Orkrya",
+          "entity_type": "island",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/islands/pantano-de-orkrya/index.md"
+        },
+        {
+          "id": "place.pantano-verde",
+          "name": "Pântano Verde",
+          "entity_type": "place",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/islands/pantano-de-orkrya/places/pantano-verde/index.md"
+        },
+        {
+          "id": "island.prisao-de-vertumbra",
+          "name": "Prisão de Vertumbra",
+          "entity_type": "island",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/islands/prisao-de-vertumbra/index.md"
         }
       ],
       "cartographic_references_without_world_page": [
@@ -680,16 +701,6 @@
         {
           "id": "cartographic.ruinas-da-torre-de-eldrin",
           "name": "Ruínas da Torre de Eldrin",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.prisao-de-vertumbra",
-          "name": "Prisão de Vertumbra",
-          "entity_type": "cartographic_reference"
-        },
-        {
-          "id": "cartographic.pantano-de-orkrya",
-          "name": "Pântano de Orkrya",
           "entity_type": "cartographic_reference"
         }
       ]
@@ -1128,7 +1139,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.prisao-de-vertumbra",
+        "subject_id": "island.prisao-de-vertumbra",
         "predicate": "belongs_to",
         "object_id": "realm.irtuman",
         "precision": "approximate",
@@ -1136,7 +1147,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.prisao-de-vertumbra",
+        "subject_id": "island.prisao-de-vertumbra",
         "predicate": "island",
         "object_value": "Barilis",
         "precision": "approximate",
@@ -1144,7 +1155,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.prisao-de-vertumbra",
+        "subject_id": "island.prisao-de-vertumbra",
         "predicate": "southeast_of",
         "object_id": "realm.irtuman",
         "precision": "approximate",
@@ -1152,7 +1163,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.prisao-de-vertumbra",
+        "subject_id": "island.prisao-de-vertumbra",
         "predicate": "northeast_of",
         "object_id": "place.deserto-de-knull",
         "precision": "approximate",
@@ -1160,7 +1171,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.pantano-de-orkrya",
+        "subject_id": "island.pantano-de-orkrya",
         "predicate": "independent_from",
         "object_id": "realm.irtuman",
         "precision": "approximate",
@@ -1168,7 +1179,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.pantano-de-orkrya",
+        "subject_id": "island.pantano-de-orkrya",
         "predicate": "island",
         "object_value": "Barilis",
         "precision": "approximate",
@@ -1176,7 +1187,7 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.pantano-de-orkrya",
+        "subject_id": "island.pantano-de-orkrya",
         "predicate": "north_of",
         "object_id": "realm.owill",
         "precision": "approximate",
@@ -1184,11 +1195,19 @@
         "may_derive": false
       },
       {
-        "subject_id": "cartographic.pantano-de-orkrya",
+        "subject_id": "island.pantano-de-orkrya",
         "predicate": "west_of",
         "object_id": "place.floresta-de-kristarr",
         "precision": "approximate",
         "source_status": "canonical_user_confirmed",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.pantano-verde",
+        "predicate": "inside",
+        "object_id": "island.pantano-de-orkrya",
+        "precision": "approximate",
+        "source_status": "canonical_written",
         "may_derive": false
       },
       {
