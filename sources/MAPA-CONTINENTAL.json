@@ -603,6 +603,41 @@
           "entity_type": "place",
           "macro_region": "south",
           "world_path": "world/public/geography/south/places/vila-do-farol/index.md"
+        },
+        {
+          "id": "sea.mar-de-sangue",
+          "name": "Mar de Sangue",
+          "entity_type": "sea",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/seas/mar-de-sangue/index.md"
+        },
+        {
+          "id": "sea.mar-sombrio",
+          "name": "Mar Sombrio",
+          "entity_type": "sea",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/seas/mar-sombrio/index.md"
+        },
+        {
+          "id": "sea.estreito-das-mil-correntes",
+          "name": "Estreito das Mil Correntes",
+          "entity_type": "sea",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/seas/estreito-das-mil-correntes/index.md"
+        },
+        {
+          "id": "sea.mar-das-tempestades-eternas",
+          "name": "Mar das Tempestades Eternas",
+          "entity_type": "sea",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/seas/mar-das-tempestades-eternas/index.md"
+        },
+        {
+          "id": "sea.azul-profundo",
+          "name": "Azul Profundo",
+          "entity_type": "sea",
+          "macro_region": "seas-and-islands",
+          "world_path": "world/public/geography/seas-and-islands/seas/azul-profundo/index.md"
         }
       ],
       "cartographic_references_without_world_page": [
@@ -864,6 +899,14 @@
       },
       {
         "subject_id": "cartographic.estreito-das-mil-correntes",
+        "predicate": "north_of",
+        "object_id": "realm.durnvale",
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "sea.estreito-das-mil-correntes",
         "predicate": "north_of",
         "object_id": "realm.durnvale",
         "precision": "approximate",
