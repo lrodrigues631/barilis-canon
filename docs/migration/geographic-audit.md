@@ -98,16 +98,16 @@ ou ajuste de fonte.
 
 ## Mares e Ilhas
 
-| Entidade                    | Tipo     | Posição canônica atual                                                                            | Fonte principal                                                                                                                     | Referência no mapa                                                  | Destino futuro esperado                                                                                                   | Situação                   |
-| --------------------------- | -------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| Mar de Sangue               | Mar      | Vínculos com Irtuman, Zarathryn e artefatos de Zareth                                             | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                                | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/mar-de-sangue/index.md`               | migrado como página mínima |
-| Mar Sombrio                 | Mar      | Vínculos com Aurathil e Fenrir's Hollow                                                           | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                                | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/mar-sombrio/index.md`                 | migrado como página mínima |
-| Estreito das Mil Correntes  | Estreito | Vínculos com Durnvale e DurunDralin; ao norte de Durnvale                                         | `world/public/index.md`; `world/public/geography/central/realms/durnvale/index.md`; `docs/governance/continental-topology-guide.md` | Relação topológica ao norte de Durnvale                             | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/estreito-das-mil-correntes/index.md`  | migrado como página mínima |
-| Mar das Tempestades Eternas | Mar      | Vínculos com Ilha de Skaldheim, Jotungard e Thalos                                                | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                                | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/mar-das-tempestades-eternas/index.md` | migrado como página mínima |
-| Azul Profundo               | Mar      | Vínculos com Owill, Ilha de Solmath e Zarathryn                                                   | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                                | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/azul-profundo/index.md`               | migrado como página mínima |
-| Ilha de Zarathryn           | Ilha     | Ilha de pirataria, contrabando e mercado negro                                                    | `world/public/index.md`                                                                                                             | Sudoeste marítimo, a oeste de Owill                                 | `world/public/geography/seas-and-islands/islands/zarathryn/`                                                              | pendente de fonte dedicada |
-| Ilha de Solmath             | Ilha     | Polo de magia elemental e neutralidade no sudeste de Barilis, a leste de Owill e sul de Skaldheim | `world/public/index.md`; `docs/governance/continental-topology-guide.md`                                                            | Não discriminado no JSON                                            | `world/public/geography/seas-and-islands/islands/solmath/`                                                                | pendente de fonte dedicada |
-| Ilha de Skaldheim           | Ilha     | Ilha politicamente ligada a Jotungard                                                             | `world/public/geography/north/realms/jotungard/index.md`                                                                            | Leste/sudeste marítimo; distante visualmente do núcleo de Jotungard | `world/public/geography/seas-and-islands/islands/skaldheim/`                                                              | confirmado                 |
+| Entidade                    | Tipo     | Posição canônica atual                                                                            | Fonte principal                                                                                                                     | Referência no mapa                                     | Destino futuro esperado                                                                                                   | Situação                   |
+| --------------------------- | -------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| Mar de Sangue               | Mar      | Vínculos com Irtuman, Zarathryn e artefatos de Zareth                                             | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                   | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/mar-de-sangue/index.md`               | migrado como página mínima |
+| Mar Sombrio                 | Mar      | Vínculos com Aurathil e Fenrir's Hollow                                                           | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                   | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/mar-sombrio/index.md`                 | migrado como página mínima |
+| Estreito das Mil Correntes  | Estreito | Vínculos com Durnvale e DurunDralin; ao norte de Durnvale                                         | `world/public/index.md`; `world/public/geography/central/realms/durnvale/index.md`; `docs/governance/continental-topology-guide.md` | Relação topológica ao norte de Durnvale                | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/estreito-das-mil-correntes/index.md`  | migrado como página mínima |
+| Mar das Tempestades Eternas | Mar      | Vínculos com Ilha de Skaldheim, Jotungard e Thalos                                                | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                   | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/mar-das-tempestades-eternas/index.md` | migrado como página mínima |
+| Azul Profundo               | Mar      | Vínculos com Owill, Ilha de Solmath e Zarathryn                                                   | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON                   | Migrado como página pública mínima em `world/public/geography/seas-and-islands/seas/azul-profundo/index.md`               | migrado como página mínima |
+| Ilha de Zarathryn           | Ilha     | Ilha de pirataria, contrabando e mercado negro                                                    | `world/public/index.md`                                                                                                             | Entidade canônica registrada no JSON; a oeste de Owill | Migrada como página pública mínima em `world/public/geography/seas-and-islands/islands/zarathryn/index.md`                | migrado como página mínima |
+| Ilha de Solmath             | Ilha     | Polo de magia elemental e neutralidade no sudeste de Barilis, a leste de Owill e sul de Skaldheim | `world/public/index.md`; `docs/governance/continental-topology-guide.md`                                                            | Entidade canônica registrada no JSON                   | Migrada como página pública mínima em `world/public/geography/seas-and-islands/islands/solmath/index.md`                  | migrado como página mínima |
+| Ilha de Skaldheim           | Ilha     | Ilha politicamente ligada a Jotungard                                                             | `world/public/geography/north/realms/jotungard/index.md`; `docs/governance/continental-topology-guide.md`                           | Entidade canônica registrada no JSON                   | Migrada como página pública mínima em `world/public/geography/seas-and-islands/islands/skaldheim/index.md`                | migrado como página mínima |
 
 ## Pontos obrigatórios de verificação
 
@@ -157,11 +157,14 @@ ou ajuste de fonte.
   auditoria.
 - **Duas Grandes Árvores:** A Grande Árvore de Owill é centro cerimonial interno
   de Owill; A Grande Árvore da Floresta de Kristarr é marco externo em Kristarr.
-- **Ilha de Zarathryn:** citada no índice e no mapa, ainda sem fonte dedicada.
+- **Ilha de Zarathryn, Ilha de Solmath e Ilha de Skaldheim:** migradas como
+  páginas públicas mínimas de ilhas, sem criação de rotas, distâncias, portos,
+  facções, conteúdo privado ou desenvolvimento adicional.
 - **Torres de Marfim:** permanece reservada à Fase 3, sem absorção nos arquivos
   públicos mínimos da Região Central.
-- **Mares, estreitos e ilhas:** os cinco corpos d'água do índice foram migrados
-  como páginas públicas mínimas. Ilhas e arquipélagos permanecem pendentes.
+- **Mares, estreitos e ilhas:** os cinco corpos d'água do índice e as três ilhas
+  deste lote foram migrados como páginas públicas mínimas. Arquipélagos e itens
+  internos de Owill permanecem pendentes.
 
 ## Divergências e lacunas
 
@@ -188,7 +191,7 @@ Nenhuma divergência topológica deste lote permanece aberta após a aplicação
 | Hollowmist                        | Índice, mapa e `sources/outros-lugares.md`.                     | Médio para Centro.                                      | Migrar após resolver alias do Santuário do Vento.                        |
 | Vila Gorrukh                      | Índice, mapa e `sources/outros-lugares.md`.                     | Médio para Centro.                                      | Migrar como vila ligada a Eldewood/Bryndor.                              |
 | Pântano de Orkrya / Pântano Verde | Índice, mapa e `sources/outros-lugares.md`.                     | Médio para Sul.                                         | Decidir se Pântano Verde será sublocal ou entrada própria do pântano.    |
-| Ilhas do índice                   | `world/public/index.md` e mapa para parte das ilhas.            | Médio para navegação futura.                            | Criar lote próprio de ilhas após migração mínima dos mares.              |
+| Arquipélagos internos de Owill    | `world/public/geography/south/realms/owill/index.md`.           | Médio para navegação futura.                            | Manter Thalanor e Lethiriel como elementos internos até decisão própria. |
 
 ## Entidades visuais do mapa ainda não confirmadas em fonte escrita
 
@@ -220,10 +223,9 @@ Nenhuma divergência topológica deste lote permanece aberta após a aplicação
    - Pântano Verde
    - Prisão de Vertumbra
 
-4. Ilhas
-   - Ilha de Zarathryn
-   - Solmath
-   - Ilha de Skaldheim
+4. Ilhas e arquipélagos
+   - Nenhuma pendência deste lote de ilhas permanece.
+   - Arquipélagos internos de Owill dependem de decisão própria.
 
 > **Nota de escopo:** Águas de Uldain não integra a Fase 2. Sua migração será
 > tratada na Fase 3, junto do conteúdo transversal que exige divisão entre lore
