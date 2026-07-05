@@ -414,6 +414,13 @@
           "world_path": "world/public/geography/north/places/floresta-de-sharpentrees/index.md"
         },
         {
+          "id": "place.aguas-de-uldain",
+          "name": "Águas de Uldain",
+          "entity_type": "place",
+          "macro_region": "north",
+          "world_path": "world/public/geography/north/places/aguas-de-uldain/index.md"
+        },
+        {
           "id": "realm.vaelyndor",
           "name": "Reino de Vaelyndor",
           "entity_type": "realm",
@@ -728,6 +735,14 @@
         "subject_id": "place.floresta-de-sharpentrees",
         "predicate": "between",
         "object_ids": ["realm.aurathil", "realm.jotungard"],
+        "precision": "approximate",
+        "source_status": "canonical_written",
+        "may_derive": false
+      },
+      {
+        "subject_id": "place.aguas-de-uldain",
+        "predicate": "inside",
+        "object_id": "place.floresta-de-sharpentrees",
         "precision": "approximate",
         "source_status": "canonical_written",
         "may_derive": false
