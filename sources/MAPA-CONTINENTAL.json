@@ -485,6 +485,13 @@
           "world_path": "world/public/geography/central/realms/thalendor/index.md"
         },
         {
+          "id": "institution.torres-de-marfim",
+          "name": "Torres de Marfim",
+          "entity_type": "institution",
+          "macro_region": "central",
+          "world_path": "world/public/institutions/torres-de-marfim/index.md"
+        },
+        {
           "id": "place.forte-abandonado",
           "name": "Forte Abandonado",
           "entity_type": "place",
@@ -683,11 +690,6 @@
         }
       ],
       "cartographic_references_without_world_page": [
-        {
-          "id": "institution.torres-de-marfim",
-          "name": "Torres de Marfim",
-          "entity_type": "institution_reference"
-        },
         {
           "id": "cartographic.estreito-das-mil-correntes",
           "name": "Estreito das Mil Correntes",
