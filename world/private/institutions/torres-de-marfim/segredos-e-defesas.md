@@ -31,7 +31,8 @@ O Cofre Arcano fica abaixo da Grande Torre.
 
 O Cofre é protegido por campos de antimagia e chaves rúnicas.
 
-A **Arca de Zareth** é mantida sob camadas de runas e guardiões etéreos.
+A Arca de Zareth foi mantida no Cofre por séculos, selada sob camadas de runas e
+guardiões etéreos.
 
 O acesso exige duas autorizações conjuntas: uma do Arquimago e outra do Guardião
 do Cofre.
