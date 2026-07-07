@@ -15,6 +15,10 @@ O conteúdo canônico ativo deve ser escrito em Markdown com frontmatter YAML.
 - `world/private/` não deve ser usado para sessões, campanhas, encontros,
   combate ou dados temporários do grupo atual.
 - `id` e `slug` devem ser únicos dentro dos arquivos validados.
+- `relations` aceita lista vazia, lista legada de IDs ou lista estruturada de
+  objetos, sem misturar formatos no mesmo arquivo.
+- `provenance` é opcional e registra caminhos de fontes e/ou decisões no nível
+  do arquivo.
 
 ## Frontmatter Obrigatório
 
@@ -53,6 +57,23 @@ estrutura de pastas. Valores atualmente previstos:
 `north-central` é uma categoria organizacional do repositório, não uma quarta
 macro-região oficial de Barilis.
 
+## Relações e Proveniência
+
+O contrato detalhado de `relations` estruturadas e `provenance` está em
+`docs/governance/relations-and-provenance.md`.
+
+Resumo operacional:
+
+- `relations: []` é válido.
+- Relações legadas devem conter apenas strings com IDs canônicos existentes.
+- Relações estruturadas devem conter apenas objetos com `target`, `type` e,
+  opcionalmente, `basis`.
+- Tipos estruturados permitidos: `inside`, `belongs_to` e
+  `politically_linked_to`.
+- Arquivos públicos não podem apontar para entidades de visibilidade `gm`.
+- `provenance`, quando presente, deve conter `source_paths`, `decision_paths` ou
+  ambos, sempre como listas não vazias de caminhos relativos existentes.
+
 ## Estados
 
 Valores válidos de `status`:
@@ -70,7 +91,11 @@ Valores válidos de `visibility`:
 
 O validador local verifica arquivos Markdown de conteúdo apenas em
 `world/public/` e `world/private/`, ignora READMEs e arquivos operacionais,
-exige frontmatter YAML e detecta duplicidade de `id` e `slug`.
+exige frontmatter YAML, detecta duplicidade de `id` e `slug`, valida alvos de
+relações e valida caminhos de proveniência.
+
+Relações legadas aceitas geram um aviso resumido com a quantidade de arquivos
+ainda nesse formato. Esse aviso não causa falha.
 
 Arquivos em `sources/`, `_review/` e `archive/` são ignorados por Prettier,
 markdownlint-cli2 e pelo validador.

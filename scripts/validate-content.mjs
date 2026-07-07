@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
@@ -23,11 +24,20 @@ const requiredFields = [
 const validStatuses = new Set(["canonical", "review", "archived"]);
 const validVisibility = new Set(["public", "gm"]);
 const validRegions = new Set(["north", "central", "south", "seas-and-islands"]);
+const validRelationTypes = new Set([
+  "inside",
+  "belongs_to",
+  "politically_linked_to",
+]);
+const allowedRelationFields = new Set(["target", "type", "basis"]);
+const allowedProvenanceFields = new Set(["source_paths", "decision_paths"]);
 const ignoredFileNames = new Set(["README.md"]);
 
 const errors = [];
 const ids = new Map();
 const slugs = new Map();
+const entities = new Map();
+let legacyRelationFileCount = 0;
 
 async function collectMarkdownFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -65,6 +75,10 @@ function relative(filePath) {
 
 function isIgnoredContentFile(filePath) {
   return ignoredFileNames.has(path.basename(filePath));
+}
+
+function isPlainObject(value) {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
 function parseFrontmatter(source, filePath) {
@@ -186,6 +200,18 @@ function validateFrontmatter(frontmatter, filePath) {
 
   trackUnique(ids, frontmatter.id, "id", filePath);
   trackUnique(slugs, frontmatter.slug, "slug", filePath);
+
+  if (
+    typeof frontmatter.id === "string" &&
+    frontmatter.id.trim() !== "" &&
+    !entities.has(frontmatter.id)
+  ) {
+    entities.set(frontmatter.id, {
+      filePath,
+      status: frontmatter.status,
+      visibility: frontmatter.visibility,
+    });
+  }
 }
 
 function trackUnique(index, value, field, filePath) {
@@ -203,19 +229,257 @@ function trackUnique(index, value, field, filePath) {
   index.set(value, filePath);
 }
 
-const markdownFiles = await collectCanonicalMarkdownFiles();
-
-for (const filePath of markdownFiles) {
-  if (isIgnoredContentFile(filePath)) {
-    continue;
+function validateRepoRelativePath(value, fieldLabel, filePath) {
+  if (typeof value !== "string" || value.trim() === "") {
+    errors.push(
+      `${relative(filePath)}: "${fieldLabel}" deve conter caminhos de texto não vazios.`,
+    );
+    return;
   }
 
+  if (path.isAbsolute(value)) {
+    errors.push(
+      `${relative(filePath)}: "${fieldLabel}" não deve usar caminho absoluto (${value}).`,
+    );
+    return;
+  }
+
+  const resolvedPath = path.resolve(rootDir, value);
+  const rootRelativePath = path.relative(rootDir, resolvedPath);
+
+  if (rootRelativePath.startsWith("..") || path.isAbsolute(rootRelativePath)) {
+    errors.push(
+      `${relative(filePath)}: "${fieldLabel}" deve permanecer dentro do repositório (${value}).`,
+    );
+    return;
+  }
+
+  if (!existsSync(resolvedPath)) {
+    errors.push(
+      `${relative(filePath)}: "${fieldLabel}" aponta para caminho inexistente (${value}).`,
+    );
+  }
+}
+
+function validatePathList(value, fieldLabel, filePath) {
+  if (!Array.isArray(value) || value.length === 0) {
+    errors.push(
+      `${relative(filePath)}: "${fieldLabel}" deve ser uma lista não vazia.`,
+    );
+    return;
+  }
+
+  for (const item of value) {
+    validateRepoRelativePath(item, fieldLabel, filePath);
+  }
+}
+
+function validateRelationTarget(target, frontmatter, filePath) {
+  if (typeof target !== "string" || target.trim() === "") {
+    errors.push(
+      `${relative(filePath)}: relação deve declarar target como texto não vazio.`,
+    );
+    return;
+  }
+
+  if (target === frontmatter.id) {
+    errors.push(
+      `${relative(filePath)}: relação não pode apontar para si mesma.`,
+    );
+    return;
+  }
+
+  const targetEntity = entities.get(target);
+
+  if (!targetEntity) {
+    errors.push(
+      `${relative(filePath)}: relação aponta para target inexistente (${target}).`,
+    );
+    return;
+  }
+
+  if (targetEntity.status !== "canonical") {
+    errors.push(
+      `${relative(filePath)}: relação aponta para target não canônico (${target}).`,
+    );
+  }
+
+  if (frontmatter.visibility === "public" && targetEntity.visibility === "gm") {
+    errors.push(
+      `${relative(filePath)}: arquivo público não pode apontar para target gm (${target}).`,
+    );
+  }
+}
+
+function validateLegacyRelations(relations, frontmatter, filePath) {
+  legacyRelationFileCount += 1;
+
+  for (const target of relations) {
+    if (typeof target !== "string" || target.trim() === "") {
+      errors.push(
+        `${relative(filePath)}: relations legadas devem conter apenas IDs não vazios.`,
+      );
+      continue;
+    }
+
+    validateRelationTarget(target, frontmatter, filePath);
+  }
+}
+
+function validateStructuredRelations(relations, frontmatter, filePath) {
+  const seenPairs = new Set();
+
+  for (const relation of relations) {
+    for (const field of Object.keys(relation)) {
+      if (!allowedRelationFields.has(field)) {
+        errors.push(
+          `${relative(filePath)}: relation estruturada contém campo não permitido "${field}".`,
+        );
+      }
+    }
+
+    if (typeof relation.target !== "string" || relation.target.trim() === "") {
+      errors.push(
+        `${relative(filePath)}: relation estruturada exige target não vazio.`,
+      );
+    } else {
+      validateRelationTarget(relation.target, frontmatter, filePath);
+    }
+
+    if (typeof relation.type !== "string" || relation.type.trim() === "") {
+      errors.push(
+        `${relative(filePath)}: relation estruturada exige type não vazio.`,
+      );
+    } else if (!validRelationTypes.has(relation.type)) {
+      errors.push(
+        `${relative(filePath)}: relation type deve ser inside, belongs_to ou politically_linked_to.`,
+      );
+    }
+
+    if (
+      typeof relation.target === "string" &&
+      relation.target.trim() !== "" &&
+      typeof relation.type === "string" &&
+      relation.type.trim() !== ""
+    ) {
+      const pair = `${relation.type}::${relation.target}`;
+
+      if (seenPairs.has(pair)) {
+        errors.push(
+          `${relative(filePath)}: relation duplicada para type+target (${relation.type}, ${relation.target}).`,
+        );
+      }
+
+      seenPairs.add(pair);
+    }
+
+    if (Object.hasOwn(relation, "basis")) {
+      validatePathList(relation.basis, "relations.basis", filePath);
+    }
+  }
+}
+
+function validateRelations(frontmatter, filePath) {
+  if (
+    !Object.hasOwn(frontmatter, "relations") ||
+    !Array.isArray(frontmatter.relations)
+  ) {
+    return;
+  }
+
+  const relations = frontmatter.relations;
+
+  if (relations.length === 0) {
+    return;
+  }
+
+  const stringCount = relations.filter(
+    (item) => typeof item === "string",
+  ).length;
+  const objectCount = relations.filter((item) => isPlainObject(item)).length;
+
+  if (stringCount === relations.length) {
+    validateLegacyRelations(relations, frontmatter, filePath);
+    return;
+  }
+
+  if (objectCount === relations.length) {
+    validateStructuredRelations(relations, frontmatter, filePath);
+    return;
+  }
+
+  errors.push(
+    `${relative(filePath)}: relations não pode misturar strings legadas e objetos estruturados.`,
+  );
+}
+
+function validateProvenance(frontmatter, filePath) {
+  if (!Object.hasOwn(frontmatter, "provenance")) {
+    return;
+  }
+
+  if (!isPlainObject(frontmatter.provenance)) {
+    errors.push(`${relative(filePath)}: campo "provenance" deve ser objeto.`);
+    return;
+  }
+
+  for (const field of Object.keys(frontmatter.provenance)) {
+    if (!allowedProvenanceFields.has(field)) {
+      errors.push(
+        `${relative(filePath)}: provenance contém campo não permitido "${field}".`,
+      );
+    }
+  }
+
+  const hasSourcePaths = Object.hasOwn(frontmatter.provenance, "source_paths");
+  const hasDecisionPaths = Object.hasOwn(
+    frontmatter.provenance,
+    "decision_paths",
+  );
+
+  if (!hasSourcePaths && !hasDecisionPaths) {
+    errors.push(
+      `${relative(filePath)}: provenance deve declarar source_paths, decision_paths ou ambos.`,
+    );
+    return;
+  }
+
+  if (hasSourcePaths) {
+    validatePathList(
+      frontmatter.provenance.source_paths,
+      "provenance.source_paths",
+      filePath,
+    );
+  }
+
+  if (hasDecisionPaths) {
+    validatePathList(
+      frontmatter.provenance.decision_paths,
+      "provenance.decision_paths",
+      filePath,
+    );
+  }
+}
+
+const markdownFiles = await collectCanonicalMarkdownFiles();
+const contentFiles = markdownFiles.filter(
+  (filePath) => !isIgnoredContentFile(filePath),
+);
+const parsedContent = [];
+
+for (const filePath of contentFiles) {
   const source = await readFile(filePath, "utf8");
   const frontmatter = parseFrontmatter(source, filePath);
 
   if (frontmatter) {
+    parsedContent.push({ filePath, frontmatter });
     validateFrontmatter(frontmatter, filePath);
   }
+}
+
+for (const { filePath, frontmatter } of parsedContent) {
+  validateRelations(frontmatter, filePath);
+  validateProvenance(frontmatter, filePath);
 }
 
 if (errors.length > 0) {
@@ -225,6 +489,10 @@ if (errors.length > 0) {
   }
   process.exit(1);
 }
+
+console.warn(
+  `Aviso: ${legacyRelationFileCount} arquivo(s) usam relations legadas em formato de IDs.`,
+);
 
 console.log(
   `Validação de conteúdo concluída: ${ids.size} arquivo(s) canônico(s).`,
