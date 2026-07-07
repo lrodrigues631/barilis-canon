@@ -7,8 +7,15 @@ visibility: public
 slug: prisao-de-vertumbra
 region: seas-and-islands
 geographic_position: seas-and-islands
-relations: []
-updated_at: "2026-07-03"
+relations:
+  - target: realm.irtuman
+    type: belongs_to
+provenance:
+  source_paths:
+    - sources/#00_index_unificado_barilis.md
+  decision_paths:
+    - docs/governance/continental-topology-guide.md
+updated_at: "2026-07-07"
 ---
 
 # Prisão de Vertumbra

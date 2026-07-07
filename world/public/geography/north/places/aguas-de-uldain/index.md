@@ -7,8 +7,15 @@ visibility: public
 slug: aguas-de-uldain
 region: north
 geographic_position: north
-relations: []
-updated_at: "2026-07-04"
+relations:
+  - target: place.floresta-de-sharpentrees
+    type: inside
+provenance:
+  source_paths:
+    - sources/uldain.md
+  decision_paths:
+    - docs/migration/uldain-visibility.md
+updated_at: "2026-07-07"
 ---
 
 # Águas de Uldain
