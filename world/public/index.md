@@ -13,10 +13,10 @@ updated_at: "2026-07-05"
 
 # Barilis — Índice Geográfico Unificado
 
-> **Tipo:** Documento de Referência Canônica **Escopo:** Geografia, relações
-> macro e tom narrativo **Não contém:** estatísticas, encontros, descrições
-> táticas ou detalhes de cena **Última revisão:** padronização estrutural para
-> uso contínuo em campanha e chats de apoio
+> **Tipo:** Referência geográfica e tonal **Escopo:** Geografia, relações macro
+> e tom narrativo **Não contém:** estatísticas, encontros, descrições táticas ou
+> detalhes de cena **Última revisão:** padronização estrutural para uso contínuo
+> em campanha e chats de apoio
 
 Este documento consolida e unifica as informações contidas nos seguintes
 arquivos originais do projeto:
@@ -26,9 +26,9 @@ arquivos originais do projeto:
 - #02-oceanos-de-barilis.md
 - #03-as-ilhas.md
 
-Ele passa a ser o **documento-mestre de navegação geográfica** de Barilis. Os
-arquivos originais permanecem válidos como fontes detalhadas, mas **este índice
-é a porta de entrada canônica**.
+Ele passa a ser uma referência prática de navegação geográfica de Barilis. Os
+arquivos originais permanecem válidos como fontes detalhadas, e este índice
+serve como ponto de entrada para mapa mental, geografia macro e tom narrativo.
 
 ## 1. Visão Geral do Mundo
 
@@ -41,7 +41,7 @@ Ele deve ser consultado:
 
 - antes de improvisar cenas
 - ao planejar sessões
-- ao responder perguntas amplas sobre o mundo
+- ao responder perguntas amplas sobre localização, macro-região ou tom
 
 Ele **não substitui** arquivos de reinos, regiões ou instituições.
 
@@ -52,7 +52,8 @@ Ele **não substitui** arquivos de reinos, regiões ou instituições.
 - Nunca coloque aqui detalhes de sala, NPC específico ou estatística.
 - Se precisar de detalhe profundo, vá para o arquivo dedicado do reino, região
   ou instituição.
-- Em caso de conflito entre arquivos, **este índice vence**.
+- Em caso de conflito, este índice prevalece somente quando a dúvida for de
+  geografia macro ou tom narrativo.
 
 Barilis é um continente dividido em três grandes regiões terrestres — **Norte,
 Central e Sul** — e cercado por complexos marítimos que conectam política,
@@ -236,7 +237,14 @@ Esta hierarquia deve ser respeitada em todos os outros documentos do projeto:
 ## 6. Regra de Uso para Mestragem e Chats
 
 > **Autoridade:** este índice tem precedência sobre outros arquivos quando a
-> dúvida for geográfica ou de tom.
+> dúvida for de geografia macro ou tom narrativo.
+
+Este índice não substitui fontes primárias de reinos, fontes próprias de
+instituições, a História Geral, decisões de visibilidade público/mestre,
+segredos ou decisões registradas de nomenclatura. Ele não possui autoridade
+automática sobre política, história, instituições ou segredos, nem prevalece
+automaticamente sobre decisões canônicas específicas registradas em governança
+ou logs de divergência.
 
 ### Checklist rápido para o mestre
 
@@ -247,11 +255,13 @@ Antes de improvisar, confirme:
 - Influência marítima envolvida?
 - Tom narrativo compatível?
 
-Se todas as respostas vierem deste arquivo, você está seguro.
+Se todas as respostas de geografia macro e tom vierem deste arquivo, você está
+seguro nesse escopo.
 
-- Este documento é sempre a **primeira referência**.
+- Este documento é a referência inicial para geografia macro e tom narrativo.
 - Detalhes aprofundados devem ser buscados nos arquivos originais
   correspondentes.
-- Nenhuma decisão de mundo deve contradizer este índice.
+- Decisões fora desse escopo devem consultar a fonte primária ou o registro de
+  governança correspondente.
 
 **Status:** Canônico **Função:** Índice Unificado Geográfico de Barilis

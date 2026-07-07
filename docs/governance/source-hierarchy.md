@@ -18,17 +18,27 @@ ativo.
 1. `00_index_unificado_barilis.md` governa geografia macro e tom. O arquivo
    bruto está preservado fisicamente como
    `sources/#00_index_unificado_barilis.md`; seu conteúdo ativo foi migrado para
-   `world/public/index.md`.
+   `world/public/index.md`. O índice público prevalece apenas para dúvidas e
+   conflitos de geografia macro e tom narrativo. Ele não substitui fontes
+   primárias de reinos, fontes próprias de instituições, a História Geral,
+   decisões de visibilidade público/mestre, segredos, decisões registradas de
+   nomenclatura ou decisões canônicas específicas documentadas em governança ou
+   registros de divergência.
 2. `#2.1-reino-de-durnvale.md` é a fonte oficial de Durnvale.
 3. `outros-lugares.md` substitui as listas regionais antigas.
 4. `torres-de-marfim.md` é fonte própria da instituição Torres de Marfim.
 5. Arquivos individuais de reinos são fontes primárias de seus próprios
    territórios.
 6. `uldain.md` é cânon ativo consolidado para o local do Norte com nome exibido
-   Águas de Uldain, slug/ID/arquivo `aguas-de-uldain` e alias de busca Uldain,
-   mas exige split de visibilidade e escopo antes da migração.
-7. `economia_barilis.md` é conteúdo canônico que exige split futuro entre
-   contexto econômico do mundo e diretrizes operacionais de mestre.
+   Águas de Uldain, slug/ID/arquivo `aguas-de-uldain` e alias de busca Uldain. O
+   split de visibilidade foi concluído: há conteúdo público mínimo em
+   `world/public/`, segredos permanentes de mestre em `world/private/`, e o
+   material tático do Complexo Submerso permanece apenas na fonte bruta. Uldain
+   não deve ser absorvida por Sharpentrees.
+7. `economia_barilis.md` é conteúdo canônico cujo split inicial já foi
+   executado. Fatos econômicos públicos mínimos foram migrados, diretrizes
+   operacionais ficaram separadas em documentação própria, e reconciliações
+   regionais ou afirmações conflitantes permanecem pendentes de etapa futura.
 
 ## Organização Geográfica
 
