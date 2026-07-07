@@ -65,7 +65,14 @@ O contrato detalhado de `relations` estruturadas e `provenance` está em
 Resumo operacional:
 
 - `relations: []` é válido.
-- Relações legadas devem conter apenas strings com IDs canônicos existentes.
+- Relações legadas devem conter apenas strings com IDs canônicos existentes e
+  existem apenas como compatibilidade de transição.
+- Relações legadas não têm tipo implícito e não podem ser convertidas
+  automaticamente para `inside`, `belongs_to` ou `politically_linked_to`.
+- Referências textuais, proximidade, influência, tensão, origem compartilhada,
+  fronteira ou associação regional não são prova suficiente para relação tipada.
+- Conversões futuras dependem de vocabulário adequado e decisão canônica
+  explícita.
 - Relações estruturadas devem conter apenas objetos com `target`, `type` e,
   opcionalmente, `basis`.
 - Tipos estruturados permitidos: `inside`, `belongs_to` e
