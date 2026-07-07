@@ -89,6 +89,45 @@ presente. Listas declaradas devem conter apenas strings não vazias com caminhos
 relativos existentes no repositório. Caminhos absolutos, caminhos para fora da
 raiz e campos extras são inválidos.
 
+## Semântica de Relações Legadas
+
+Relações legadas são aceitas apenas como mecanismo de compatibilidade durante a
+transição gradual para relações estruturadas.
+
+Uma lista legada de IDs não possui semântica tipada implícita. O simples fato de
+uma relação legada apontar para uma entidade não autoriza convertê-la
+automaticamente para `inside`, `belongs_to` ou `politically_linked_to`.
+
+Qualquer conversão futura exige cumulativamente:
+
+- um tipo controlado adequado e já aprovado no vocabulário;
+- uma afirmação canônica explícita que sustente exatamente a semântica daquele
+  tipo;
+- decisão canônica ou documentação de apoio suficiente para justificar a
+  estruturação.
+
+Os seguintes elementos, isoladamente ou combinados, não bastam para criar uma
+relação tipada:
+
+- referência textual;
+- proximidade;
+- posição relativa;
+- influência;
+- tensão;
+- origem compartilhada;
+- fronteira;
+- associação regional;
+- comércio;
+- rota;
+- lealdade cultural;
+- menção narrativa.
+
+Relações legadas devem permanecer legadas enquanto sua semântica não puder ser
+expressa com precisão pelo vocabulário controlado vigente.
+
+O frontmatter estruturado não deve ser usado para criar novo cânon por
+interpretação editorial de referências textuais.
+
 ## Compatibilidade
 
 A migração é gradual. Arquivos com `relations` legadas continuam aceitos quando
