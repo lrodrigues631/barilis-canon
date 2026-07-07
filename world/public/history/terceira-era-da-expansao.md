@@ -24,9 +24,9 @@ preservou prestígio cultural e arcano, embora tenha se tornado mais isolado
 politicamente. DurunDralin fortaleceu seu papel continental por meio de
 metalurgia, cooperação rúnica e relações cautelosas com outros reinos.
 
-## Rebelião das Grandes Feras
+## Grande Rebelião das Feras
 
-A Rebelião das Grandes Feras devastou fronteiras entre Irtuman e DurunDralin. O
+A Grande Rebelião das Feras devastou fronteiras entre Irtuman e DurunDralin. O
 conflito culminou no Tratado de Estelírio, lembrado publicamente por conceder
 autonomia parcial às raças bestiais.
 
