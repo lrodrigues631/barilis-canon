@@ -8,7 +8,7 @@ slug: jotungard
 region: north
 geographic_position: north
 relations: []
-updated_at: "2026-06-29"
+updated_at: "2026-07-05"
 ---
 
 # Jotungard
@@ -139,7 +139,8 @@ destruição da Primeira Era.
 
 ### Ilha de Skaldheim
 
-Centro naval, cultural, religioso e militar marítimo subordinado a Jotungard.
+A Ilha de Skaldheim é politicamente ligada a Jotungard, sem que essa relação
+defina subordinação administrativa, soberania direta ou integração territorial.
 Entre seus centros conhecidos estão **Skarvok**, **Hrothdal**, **Glimhaven**,
 **Frostmere**, **Vintergard** e **Draugholm**.
 
