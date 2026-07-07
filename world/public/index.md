@@ -8,7 +8,7 @@ slug: barilis
 region: null
 geographic_position: global
 relations: []
-updated_at: "2026-07-01"
+updated_at: "2026-07-05"
 ---
 
 # Barilis — Índice Geográfico Unificado
@@ -220,7 +220,7 @@ As ilhas funcionam como polos independentes que afetam todo o continente.
 ### 4.3 Skaldheim
 
 - **Perfil:** fé em Thalos, cultura nórdica
-- **Subordinação:** Jotungard
+- **Vínculo político:** Ilha politicamente ligada a Jotungard
 - **Função:** bastião religioso e militar marítimo
 
 ## 5. Hierarquia Geográfica Canônica
